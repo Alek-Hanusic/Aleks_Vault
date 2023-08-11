@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "cbce3fbe35d6525e",
+    "id": "bb991638ec846d37",
     "type": "split",
     "children": [
       {
-        "id": "d9a2f13ee873b9eb",
+        "id": "54b0e1633988afe2",
         "type": "tabs",
         "children": [
           {
-            "id": "95ab7569c64e6b45",
+            "id": "38a663b06ab4778f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Markdown Cheat Sheet.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f6ff55c3ff87dff2",
+    "id": "3c73310ba2e929aa",
     "type": "split",
     "children": [
       {
-        "id": "3bf63dd0ab29ef06",
+        "id": "16f39e0259b9a005",
         "type": "tabs",
         "children": [
           {
-            "id": "a3d475274bb9151b",
+            "id": "cd47c6f161828cc3",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +43,7 @@
             }
           },
           {
-            "id": "8c0b51aaa3de0f67",
+            "id": "b2f7534c8c10bca2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +58,7 @@
             }
           },
           {
-            "id": "d55995cb8fcd7eaf",
+            "id": "2936f36486ac7d97",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -68,19 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "5ed6e3781378e9da",
+    "id": "80b0dca6c9cfa2c4",
     "type": "split",
     "children": [
       {
-        "id": "97ae366cf2663a54",
+        "id": "98f7784abd137dbf",
         "type": "tabs",
         "children": [
           {
-            "id": "22395e62b40593b0",
+            "id": "a7ba410847a1268a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Markdown Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +97,19 @@
             }
           },
           {
-            "id": "3774f6d53c0b89fe",
+            "id": "41780fe085040b22",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Markdown Cheat Sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "71ca6d8821482bf6",
+            "id": "d004fbc4dc48b783",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,14 +120,25 @@
             }
           },
           {
-            "id": "4aca7dc6cf2d3a62",
+            "id": "5fa636c9dc34dd04",
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "Markdown Cheat Sheet.md"
+              }
+            }
+          },
+          {
+            "id": "e8eb819460ff6451",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -135,9 +152,32 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "95ab7569c64e6b45",
-  "lastOpenFiles": []
+  "active": "cd47c6f161828cc3",
+  "lastOpenFiles": [
+    "Databases/Data Integrity.md",
+    "Databases/Normalization.md",
+    "Databases/Domain Integrity.md",
+    "Databases/Referential Integrity.md",
+    "Markdown Cheat Sheet.md",
+    "Databases/Database Design.md",
+    "Databases/Entity Integrity.md",
+    "Databases/Relational Database.md",
+    "Databases/DML.md",
+    "Databases/DDL.md",
+    "Databases/SQL.md",
+    "_SQL_.md",
+    "Databases/Views.md",
+    "Databases/Query.md",
+    "Databases/Entities.md",
+    "Databases/Attributes.md",
+    "Databases/RDBMS.md",
+    "Databases",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "2023-08-05.md"
+  ]
 }
