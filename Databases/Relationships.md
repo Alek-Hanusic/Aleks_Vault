@@ -29,6 +29,14 @@ Users (and Card) Table
 | 1      | Alek       |
 | 2      | Jimmy      |
 
+| cardID | Card Number    | userID |
+|--------|----------------|--------|
+| 32     | 1231 2312 3121 | 1      |
+| 33     | 2313 2311 3211 | 2      |
+| 34     | 5325 3242 3242 | 1      |
+
+==One user can have many cards. Notice how they are connected! ==
+==Multiple cards point to one user! ==
 
 - Many to many
 	- A many-to-many relationship is a type of cardinality that refers to the relationship between two entities, say, A and B, where A may contain a parent instance for which there are many children in B and vice versa.
