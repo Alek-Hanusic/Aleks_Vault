@@ -24,6 +24,10 @@ Users (and Card) Table
 	- One entity has multiple connections to other entities
 	- *One person can have multiple YouTube comments, a comment only has one author*
 
+| userID | First Name |
+| ------ | ---------- |
+| 1      | Alek       |
+| 2      | Jimmy      |
 
 
 - Many to many
