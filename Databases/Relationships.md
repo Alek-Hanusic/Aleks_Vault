@@ -1,0 +1,2 @@
+- One to one
+	- One entity has a connection to only one other entity
