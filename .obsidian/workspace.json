@@ -157,16 +157,22 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "f065bda61ee23753",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-08-13 21.24.07.excalidraw.md",
+    "Markdown Cheat Sheet.md",
+    "Databases/Relationships.md",
+    "Pasted image 20230813212446.png",
+    "Excalidraw/Drawing 2023-08-13 21.23.54.excalidraw.md",
+    "Excalidraw/Drawing 2023-08-13 21.23.35.excalidraw.md",
+    "Excalidraw",
     "Databases/Entities.md",
     "Databases/Attributes.md",
     "Databases/Relational Database.md",
-    "Databases/Relationships.md",
-    "Markdown Cheat Sheet.md",
     "Databases/Data Integrity.md",
     "Databases/Database Design.md",
     "Databases/Atomic Value.md",

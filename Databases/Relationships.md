@@ -16,12 +16,16 @@ Users (and Card) Table
 |------------|-----------|---------|
 | Alek       | Holmes    | 25      |
 
-| Card Number | CVV | Expiry Date |
-| ----------- | --- | ----------- |
-| 2131 2312 3213 2131               |  211   |  12/05   |
+| Card ID | Card Number         | CVV | Expiry Date |
+| ------- | ------------------- | --- | ----------- |
+| 25      | 2131 2312 3213 2131 | 211 | 12/05       |
+
 - One to many
 	- One entity has multiple connections to other entities
 	- *One person can have multiple YouTube comments, a comment only has one author*
+
+
+
 - Many to many
 	- A many-to-many relationship is a type of cardinality that refers to the relationship between two entities, say, A and B, where A may contain a parent instance for which there are many children in B and vice versa.
 	- *A student can register for many classes, and a class can include many students.*
