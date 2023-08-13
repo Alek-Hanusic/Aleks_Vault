@@ -1,2 +1,7 @@
 - One to one
 	- One entity has a connection to only one other entity
+	- *One person has one Social Security Number, one Social Security Number is assigned to one person*
+- One to many
+	- 
+- Many to one
+- Many to many
