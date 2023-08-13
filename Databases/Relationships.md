@@ -1,4 +1,4 @@
-- One to one
+- One to one **1:1**
 	- One entity has a connection to only one other entity
 	- *One person has one Social Security Number, one Social Security Number is assigned to one person*
 
@@ -20,7 +20,7 @@ Users (and Card) Table
 | ------- | ------------------- | --- | ----------- |
 | 25      | 2131 2312 3213 2131 | 211 | 12/05       |
 
-- One to many
+- One to many **1:N**
 	- One entity has multiple connections to other entities
 	- *One person can have multiple YouTube comments, a comment only has one author*
 
@@ -38,7 +38,7 @@ Users (and Card) Table
 ==One user can have many cards. Notice how they are connected! ==
 ==Multiple cards point to one user! ==
 
-- Many to many
+- Many to many **M:N**
 	- A many-to-many relationship is a type of cardinality that refers to the relationship between two entities, say, A and B, where A may contain a parent instance for which there are many children in B and vice versa.
 	- *A student can register for many classes, and a class can include many students.*
  
