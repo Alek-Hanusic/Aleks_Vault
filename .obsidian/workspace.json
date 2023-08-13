@@ -140,17 +140,9 @@
                 "file": "Databases/Relationships.md"
               }
             }
-          },
-          {
-            "id": "e8eb819460ff6451",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -170,20 +162,20 @@
   },
   "active": "f065bda61ee23753",
   "lastOpenFiles": [
-    "Markdown Cheat Sheet.md",
-    "Databases/Relationships.md",
-    "Databases/Data Integrity.md",
+    "Databases/Entities.md",
     "Databases/Attributes.md",
+    "Databases/Relational Database.md",
+    "Databases/Relationships.md",
+    "Markdown Cheat Sheet.md",
+    "Databases/Data Integrity.md",
     "Databases/Database Design.md",
     "Databases/Atomic Value.md",
-    "Databases/Entities.md",
     "Databases/Domain Integrity.md",
     "Databases/Entity Integrity.md",
     "Databases/Normalization.md",
     "Databases/RDBMS.md",
     "Databases/SQL.md",
     "Databases/Referential Integrity.md",
-    "Databases/Relational Database.md",
     "Databases/DML.md",
     "Databases/DDL.md",
     "_SQL_.md",
