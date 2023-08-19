@@ -141,9 +141,17 @@
                 "file": "Databases/Keys.md"
               }
             }
+          },
+          {
+            "id": "6c698d81d966a095",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -162,7 +170,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cfc265dae281522d",
+  "active": "6c698d81d966a095",
   "lastOpenFiles": [
     "Databases/Relationships.md",
     "Databases/Keys.md",

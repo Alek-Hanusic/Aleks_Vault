@@ -21,3 +21,20 @@
 # Alternate Key
 - Alternate keys are those candidate keys which are not the Primary key
 - only for designing a database, not actual SQL feature
+# Natural Key
+- a possible column that can be used as a primary key (ex: username)
+
+| **username** | balance |
+| ------------ | ------- |
+| alekk        | 55$     |
+	==username used as primary key==
+# Surrogate Keys
+- purposefully (made up) generated column to be used as primary key
+
+| **userID** | username |
+| ------ | -------- |
+| 1      | alekk    |
+| 2      | james21  |
+	==userID used as primary key==
+
+==(Use only surrogate or only Natural(stick to one or the other)==
