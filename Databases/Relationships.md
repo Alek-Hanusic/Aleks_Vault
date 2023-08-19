@@ -1,3 +1,7 @@
+==Parent-Child Relationship:==
+A parent record can have many child records, but a child record belongs to one and only one parent record.
+
+
 - One to one **1:1**
 	- One entity has a connection to only one other entity
 	- *One person has one Social Security Number, one Social Security Number is assigned to one person*
@@ -41,4 +45,5 @@ Users (and Card) Table
 - Many to many **M:N**
 	- A many-to-many relationship is a type of cardinality that refers to the relationship between two entities, say, A and B, where A may contain a parent instance for which there are many children in B and vice versa.
 	- *A student can register for many classes, and a class can include many students.*
- 
+
+

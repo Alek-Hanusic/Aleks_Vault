@@ -2,7 +2,6 @@
 - unique
 - never changing
 - not null
-
 # Foreign Key
 - integrity
 - unique (multiple references to one value ex. multiple people having same membership)
@@ -19,3 +18,5 @@
 - candidates for being a primary key
 - can be more than one candidate key
 - Asks "How many columns are needed"
+# Alternate Key
+- Alternate keys are those candidate keys which are not the Primary key
