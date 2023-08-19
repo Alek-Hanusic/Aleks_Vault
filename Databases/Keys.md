@@ -13,4 +13,6 @@
 - set of attributes that can uniquely identify a row in a table 
 - can also be one attribute
 # Candidate Key
-- 
+- minimal set of superkey (all keys that can be primary key ex: userID, phone number)
+- candidates for being a primary key
+- can be more than one candidate key
