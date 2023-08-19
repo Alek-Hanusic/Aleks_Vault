@@ -20,3 +20,4 @@
 - Asks "How many columns are needed"
 # Alternate Key
 - Alternate keys are those candidate keys which are not the Primary key
+- only for designing a database, not actual SQL feature
