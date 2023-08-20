@@ -47,3 +47,8 @@
 - One column keys (natural key, ex: username)
 # Composite/Compound Keys
 - Multiple column keys (First Name + Last Name + Email)
+
+![[Composite Keys.png]]
+- In this case, StudentID and ClassID together count as the primary key.
+
+- For example, a table for youtube video comments might include 3 columns, userID, videoID and timestamp. Since one user can have multiple comments on the same video, we need a third column to act as the "differentiator".

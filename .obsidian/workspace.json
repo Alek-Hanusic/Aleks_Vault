@@ -23,9 +23,11 @@
             "id": "9e5e90f363a2dd3c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2023-08-20 23.08.51.excalidraw.md"
+                "file": "Databases/Keys.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-08-20 23.08.51.excalidraw.md",
+                "file": "Databases/Keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-08-20 23.08.51.excalidraw.md",
+                "file": "Databases/Keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-08-20 23.08.51.excalidraw.md"
+                "file": "Databases/Keys.md"
               }
             }
           },
@@ -168,10 +170,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9e5e90f363a2dd3c",
+  "active": "cd47c6f161828cc3",
   "lastOpenFiles": [
-    "Databases/Keys.md",
+    "Databases/Composite Keys.png",
     "Excalidraw/Drawing 2023-08-20 23.08.51.excalidraw.md",
+    "Databases/Keys.md",
     "Databases/SQL Constraints.md",
     "Databases/SQL.md",
     "Databases/Atomic Value.md",
@@ -201,7 +204,6 @@
     "Pasted image 20230813212446.png",
     "Excalidraw/Drawing 2023-08-13 21.24.07.excalidraw.md",
     "Excalidraw/Drawing 2023-08-13 21.23.54.excalidraw.md",
-    "Excalidraw/Drawing 2023-08-13 21.23.35.excalidraw.md",
     "Excalidraw",
     "Databases",
     "Untitled 1.canvas",
