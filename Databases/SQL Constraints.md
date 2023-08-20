@@ -10,7 +10,7 @@
 	Forbids it from updating, no action is done if we try to update parent
 `ON UPDATE [CASCADE]`
 	If parent is updated, child is updated as well
-	![[Pasted image 20230820211835.png]]
+	![[ON UPDATE CASCADE.png]]
 # ON DELETE
 - when parent is deleted, children will delete
 
@@ -18,5 +18,5 @@
 	Forbids it from deleting, no action is done if we try to delete parent
 `ON DELETE [CASCADE]`
 	If parent is deleted, child is deleted as well 
-	![[Pasted image 20230820211259.png]]
+	![[ON DELETE CASCADE.png]]
 		ParentID of 1 from **Parent Table** is deleted from **Child Table**

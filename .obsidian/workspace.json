@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/SQL Constraints.md",
+                "file": "Databases/Keys.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/SQL Constraints.md",
+                "file": "Databases/Keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/SQL Constraints.md",
+                "file": "Databases/Keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/SQL Constraints.md"
+                "file": "Databases/Keys.md"
               }
             }
           },
@@ -159,25 +159,25 @@
   },
   "active": "f065bda61ee23753",
   "lastOpenFiles": [
+    "Databases/SQL Constraints.md",
+    "Databases/SQL.md",
+    "Databases/Atomic Value.md",
+    "Databases/ON UPDATE CASCADE.png",
+    "Databases/ON DELETE CASCADE.png",
+    "Databases/Keys.md",
     "Markdown Cheat Sheet.md",
     "Excalidraw/Drawing 2023-08-20 21.00.50.excalidraw.md",
-    "Databases/Pasted image 20230820211259.png",
-    "Databases/Pasted image 20230820211835.png",
     "Databases/Domain Integrity.md",
     "Databases/Database Design.md",
     "Databases/Attributes.md",
-    "Databases/SQL Constraints.md",
     "Databases/Normalization.md",
     "Pasted image 20230820211038.png",
     "Pasted image 20230820211155.png",
-    "Databases/Keys.md",
     "Databases/Entity Integrity.md",
     "Databases/Entities.md",
     "Databases/DML.md",
     "Databases/DDL.md",
     "Databases/Data Integrity.md",
-    "Databases/Atomic Value.md",
-    "Databases/SQL.md",
     "Databases/Views.md",
     "Databases/Relationships.md",
     "Databases/Relational Database.md",

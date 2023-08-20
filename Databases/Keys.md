@@ -11,7 +11,6 @@
 - less work
 - allows for added complexity
 - [[SQL Constraints]]
-- 
 # Superkey
 - set of attributes that can uniquely identify a row in a table 
 - can also be one attribute
@@ -44,3 +43,7 @@
 	==userID used as primary key==
 
 ==Use only surrogate or only Natural (stick to one or the other - consistency)==
+# Simple Keys
+- One column keys (natural key, ex: username)
+# Composite/Compound Keys
+- Multiple column keys (First Name + Last Name + Email)
