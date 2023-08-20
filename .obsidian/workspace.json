@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9e5e90f363a2dd3c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-08-20 23.08.51.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Keys.md",
+                "file": "Excalidraw/Drawing 2023-08-20 23.08.51.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Keys.md",
+                "file": "Excalidraw/Drawing 2023-08-20 23.08.51.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Keys.md"
+                "file": "Excalidraw/Drawing 2023-08-20 23.08.51.excalidraw.md"
               }
             }
           },
@@ -157,14 +168,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f065bda61ee23753",
+  "active": "9e5e90f363a2dd3c",
   "lastOpenFiles": [
+    "Databases/Keys.md",
+    "Excalidraw/Drawing 2023-08-20 23.08.51.excalidraw.md",
     "Databases/SQL Constraints.md",
     "Databases/SQL.md",
     "Databases/Atomic Value.md",
     "Databases/ON UPDATE CASCADE.png",
     "Databases/ON DELETE CASCADE.png",
-    "Databases/Keys.md",
     "Markdown Cheat Sheet.md",
     "Excalidraw/Drawing 2023-08-20 21.00.50.excalidraw.md",
     "Databases/Domain Integrity.md",
