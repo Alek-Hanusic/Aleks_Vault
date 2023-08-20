@@ -30,6 +30,8 @@
 	==username used as primary key==
 # Surrogate Keys
 - purposefully (made up) generated column to be used as primary key
+- kept private
+
 
 | **userID** | username |
 | ------ | -------- |
@@ -37,4 +39,4 @@
 | 2      | james21  |
 	==userID used as primary key==
 
-==(Use only surrogate or only Natural(stick to one or the other)==
+==Use only surrogate or only Natural (stick to one or the other - consistency)==
