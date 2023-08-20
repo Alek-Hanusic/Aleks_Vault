@@ -1,4 +1,5 @@
 # Primary Key
+- a column in a relational database table that's distinctive for each record
 - unique
 - never changing
 - not null
