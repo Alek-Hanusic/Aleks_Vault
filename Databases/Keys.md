@@ -5,6 +5,7 @@
 - not null
 # Foreign Key
 - integrity
+- links data in one table to the data in another table.
 - unique (multiple references to one value ex. multiple people having same membership)
 - improves functionality
 - less work
