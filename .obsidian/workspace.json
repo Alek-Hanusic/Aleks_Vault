@@ -13,36 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markdown Cheat Sheet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cfc265dae281522d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Databases/SQL Constraints.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "85071953cdcaf814",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-08-20 21.00.50.excalidraw.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,23 +157,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cfc265dae281522d",
+  "active": "f065bda61ee23753",
   "lastOpenFiles": [
-    "Pasted image 20230820211259.png",
+    "Markdown Cheat Sheet.md",
     "Excalidraw/Drawing 2023-08-20 21.00.50.excalidraw.md",
+    "Databases/Pasted image 20230820211259.png",
+    "Databases/Pasted image 20230820211835.png",
+    "Databases/Domain Integrity.md",
+    "Databases/Database Design.md",
+    "Databases/Attributes.md",
     "Databases/SQL Constraints.md",
-    "Pasted image 20230820211155.png",
+    "Databases/Normalization.md",
     "Pasted image 20230820211038.png",
+    "Pasted image 20230820211155.png",
     "Databases/Keys.md",
     "Databases/Entity Integrity.md",
     "Databases/Entities.md",
-    "Databases/Domain Integrity.md",
     "Databases/DML.md",
     "Databases/DDL.md",
-    "Databases/Database Design.md",
     "Databases/Data Integrity.md",
     "Databases/Atomic Value.md",
-    "Databases/Attributes.md",
     "Databases/SQL.md",
     "Databases/Views.md",
     "Databases/Relationships.md",
@@ -204,10 +184,8 @@
     "Databases/Referential Integrity.md",
     "Databases/RDBMS.md",
     "Databases/Query.md",
-    "Databases/Normalization.md",
     "Databases/Untitled.md",
     "Algorithms",
-    "Markdown Cheat Sheet.md",
     "Pasted image 20230813212446.png",
     "Excalidraw/Drawing 2023-08-13 21.24.07.excalidraw.md",
     "Excalidraw/Drawing 2023-08-13 21.23.54.excalidraw.md",
