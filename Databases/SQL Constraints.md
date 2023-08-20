@@ -5,5 +5,13 @@
 - ensures all values in a column are different (like a primary key)
 # ON UPDATE
 - when parent is updated, children will update
+
+```ON UPDATE [RESTRICT]```
+	Forbids it from updating, no action is done if we try to update parent
 # ON DELETE
 - when parent is deleted, children will delete
+
+```ON DELETE [RESTRICT]```
+	Forbids it from deleting, no action is done if we try to delete parent
+`ON DELETE [CASCADE]`
+	If parent is deleted, child is deleted as well (if classroomID is deleted, )
