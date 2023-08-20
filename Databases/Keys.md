@@ -10,6 +10,8 @@
 - improves functionality
 - less work
 - allows for added complexity
+- [[SQL Constraints]]
+- 
 # Superkey
 - set of attributes that can uniquely identify a row in a table 
 - can also be one attribute
