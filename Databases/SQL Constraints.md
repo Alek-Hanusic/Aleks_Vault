@@ -14,4 +14,6 @@
 ```ON DELETE [RESTRICT]```
 	Forbids it from deleting, no action is done if we try to delete parent
 `ON DELETE [CASCADE]`
-	If parent is deleted, child is deleted as well (if classroomID is deleted, )
+	If parent is deleted, child is deleted as well 
+	![[Pasted image 20230820211259.png]]
+		ParentID of 1 from **Parent Table** is deleted from Child 
