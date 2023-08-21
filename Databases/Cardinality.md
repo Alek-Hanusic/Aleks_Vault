@@ -1,1 +1,2 @@
 - cardinality refers to the number of unique values in a relational table column relative to the
+![[Cardinality Ex.png]]
