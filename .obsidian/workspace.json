@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9e5e90f363a2dd3c",
+            "id": "5022c6d82cb098c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Cardinality.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da6ce69dcedba60e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Cardinality.md",
+                "file": "Databases/Cardinality vs Modality.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Cardinality.md",
+                "file": "Databases/Cardinality vs Modality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Cardinality.md",
+                "file": "Databases/Cardinality vs Modality.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Cardinality.md"
+                "file": "Databases/Cardinality vs Modality.md"
               }
             }
           },
@@ -170,11 +157,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cd47c6f161828cc3",
+  "active": "5022c6d82cb098c5",
   "lastOpenFiles": [
+    "Databases/Cardinality.md",
+    "Databases/Cardinality vs Modality.md",
     "Cardinality Ex.png",
     "Excalidraw/Drawing 2023-08-21 23.22.25.excalidraw.md",
-    "Databases/Cardinality.md",
     "Databases/Composite Keys.png",
     "Databases/Keys.md",
     "Excalidraw/Drawing 2023-08-20 23.08.51.excalidraw.md",
