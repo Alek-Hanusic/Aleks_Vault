@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Cardinality vs Modality.md",
+                "file": "Databases/Normalization.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Cardinality vs Modality.md",
+                "file": "Databases/Normalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Cardinality vs Modality.md",
+                "file": "Databases/Normalization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Cardinality vs Modality.md"
+                "file": "Databases/Normalization.md"
               }
             }
           },
@@ -157,10 +157,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5022c6d82cb098c5",
+  "active": "cd47c6f161828cc3",
   "lastOpenFiles": [
-    "Databases/Cardinality.md",
+    "Markdown Cheat Sheet.md",
+    "Databases/Normalization.md",
     "Databases/Cardinality vs Modality.md",
+    "Databases/Cardinality.md",
     "Cardinality Ex.png",
     "Excalidraw/Drawing 2023-08-21 23.22.25.excalidraw.md",
     "Databases/Composite Keys.png",
@@ -171,12 +173,10 @@
     "Databases/Atomic Value.md",
     "Databases/ON UPDATE CASCADE.png",
     "Databases/ON DELETE CASCADE.png",
-    "Markdown Cheat Sheet.md",
     "Excalidraw/Drawing 2023-08-20 21.00.50.excalidraw.md",
     "Databases/Domain Integrity.md",
     "Databases/Database Design.md",
     "Databases/Attributes.md",
-    "Databases/Normalization.md",
     "Pasted image 20230820211038.png",
     "Pasted image 20230820211155.png",
     "Databases/Entity Integrity.md",
