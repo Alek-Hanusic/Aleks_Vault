@@ -19,6 +19,7 @@ This would be an **atomic** table
 # 2NF
 When a database is said to be 2NF, that means the database is both 1NF and contains no partial dependencies. A partial dependency is when an attribute depends partly on the table’s primary key.
 
+==Each non-key attribute must depend on the entire primary key==
 
 A 1NF Database with partial dependencies
 
