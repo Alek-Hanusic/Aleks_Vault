@@ -1,5 +1,6 @@
 **Index** is used to quicken the search by reducing the number of records to search for.
-
+Indexes are used to quickly locate data without having to search every row in a database table every time a database table is accessed. 
+An index is a copy of selected columns of data from a table, called a database key that can be searched very efficiently that also includes a low-level disk block address or direct link to the complete row of data it was copied from.
 # Clustered Index
 The data is organized in a way that helps retrieve the data
 ex: Phonebook, organized by the alphabet
