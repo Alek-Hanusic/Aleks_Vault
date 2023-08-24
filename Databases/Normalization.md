@@ -22,14 +22,17 @@ When a database is said to be 2NF, that means the database is both 1NF and conta
 
 When a database is said to be 2NF, that means the database is both 1NF and contains no partial dependencies. A partial dependency is when an attribute depends partly on the table’s primary key.
 
-// A 1NF Database with partial dependencies
+A 1NF Database with partial dependencies
+
 | ID | Name    | Address ID | Address               |
 |----|---------|------------|-----------------------|
 | 1  | Logan   | 1          | 7777 Willow Drive     |
 | 2  | Charlie | 2          | 8888 Blue Bonnet Road |
 | 3  | Johanna | 1          | 7777 Willow Drive     |
-// A 2NF database
+A 2NF database
+
 Name.db
+
 | ID | Name    | Address ID |
 |----|---------|------------|
 | 1  | Logan   | 1          |
