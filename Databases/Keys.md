@@ -3,6 +3,7 @@
 - unique
 - never changing
 - not null
+- Attributes that are a part of the primary key are called **prime attributes**
 # Foreign Key
 - integrity
 - links data in one table to the data in another table.

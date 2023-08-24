@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e710cabb72b0886d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Keys.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -159,8 +171,9 @@
   },
   "active": "5022c6d82cb098c5",
   "lastOpenFiles": [
-    "Databases/Keys.md",
+    "Databases/Transitive Dependency.png",
     "Databases/Normalization.md",
+    "Databases/Keys.md",
     "Markdown Cheat Sheet.md",
     "Databases/Cardinality vs Modality.md",
     "Databases/Cardinality.md",
@@ -192,7 +205,6 @@
     "Databases/Query.md",
     "Algorithms",
     "Pasted image 20230813212446.png",
-    "Excalidraw/Drawing 2023-08-13 21.24.07.excalidraw.md",
     "Excalidraw",
     "Databases",
     "Untitled 1.canvas",
