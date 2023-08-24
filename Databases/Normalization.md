@@ -31,7 +31,7 @@ A 1NF Database with partial dependencies
 | 3  | Johanna | 1          | 7777 Willow Drive     |
 A 2NF database
 
-Name.db
+*Name.db*
 
 | ID | Name    | Address ID |
 |----|---------|------------|
@@ -39,9 +39,11 @@ Name.db
 | 2  | Charlie | 2          |
 | 3  | Johanna | 1          |
 
-Address.db
+*Address.db*
 
 | Address ID | Address               |
 |------------|-----------------------|
 | 1          | 7777 Willow Drive     |
 | 2          | 8888 Blue Bonnet Road |
+
+
