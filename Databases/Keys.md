@@ -25,7 +25,7 @@
 - Alternate keys are those candidate keys which are not the Primary key
 - only for designing a database, not actual SQL feature
 # Natural Key
-- a possible column that can be used as a primary key (ex: username)
+- a possible existing column that can be used as a primary key (ex: username)
 
 | **username** | balance |
 | ------------ | ------- |
