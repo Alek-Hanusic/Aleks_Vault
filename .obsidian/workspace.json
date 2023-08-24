@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Indexes.md",
+                "file": "Databases/Normalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Indexes.md",
+                "file": "Databases/Normalization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Indexes.md"
+                "file": "Databases/Normalization.md"
               }
             }
           },
@@ -182,12 +181,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "acba30d88a985350",
+  "active": "5022c6d82cb098c5",
   "lastOpenFiles": [
-    "Databases/Normalization.md",
     "Databases/Indexes.md",
-    "Databases/Transitive Dependency.png",
     "Databases/Keys.md",
+    "Databases/Normalization.md",
+    "Databases/Transitive Dependency.png",
     "Markdown Cheat Sheet.md",
     "Databases/Cardinality vs Modality.md",
     "Databases/Cardinality.md",

@@ -47,6 +47,7 @@ A 2NF database
 
 
 # 3NF
+==Each non-key attribute depends on the key, the whole key and nothing but the key. ==
 When making a 3NF database, two goals need to be accomplished. The first being that the database is already 2NF, and the second being that the database contains no transitive functional dependencies. A transitive functional dependency is when a non-prime attribute is dependent on another non-prime attribute.
 
 ==When an attribute depends on another non-primary key attribute==
