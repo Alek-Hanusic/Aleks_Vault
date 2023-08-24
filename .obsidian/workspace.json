@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "acba30d88a985350",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Indexes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e710cabb72b0886d",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Normalization.md",
+                "file": "Databases/Indexes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Normalization.md",
+                "file": "Databases/Indexes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Normalization.md"
+                "file": "Databases/Indexes.md"
               }
             }
           },
@@ -169,10 +182,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5022c6d82cb098c5",
+  "active": "acba30d88a985350",
   "lastOpenFiles": [
-    "Databases/Transitive Dependency.png",
     "Databases/Normalization.md",
+    "Databases/Indexes.md",
+    "Databases/Transitive Dependency.png",
     "Databases/Keys.md",
     "Markdown Cheat Sheet.md",
     "Databases/Cardinality vs Modality.md",
