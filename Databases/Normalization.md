@@ -108,3 +108,7 @@ Sometimes, when working with a non-normalized database, incomplete data being ad
 In the table above, new employees won't have any sales yet meaning that there will be a number of NULL values in the database until a set number exists.
 ## Deletion Anomalies
 When working with a non-normalized database, a deletion anomaly can occur. A deletion anomaly is when a query ends up deleting more data from the database than was intended due to a lack of normalization.
+
+
+# Boyce Codd NF
+With the exception of trivial functional dependencies, every functional dependency in a table must be a dependency on a superkey
