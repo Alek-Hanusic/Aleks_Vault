@@ -8,7 +8,17 @@ Algorithms can be measured in a machine-independent way using the Random Access 
 
 # Complexity
 ## Input size
-We measure the complexity of an algorithm as a function of the size of the 
-input 
+We measure the complexity of an algorithm as a function of the size of the input .
 
 ## Worst-Case Complexity
+In general we measure the complexity of an algorithm in the worst case and without making assumptions on the content of the input (e.g., is the input list sorted?)
+Other types of analysis:
+	• Best case Complexity
+	• Average case Complexity
+
+## Order of Growth
+Rate of growth of T(n)
+- We ignore lower-order terms in the formula
+- Formulas dominated by higher-order terms grow at faster pace while increasing the value n
+
+They (lower order) become more **insignificant** for large values of n.
