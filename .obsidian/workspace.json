@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Normalization.md",
+                "file": "Algorithms/Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Normalization.md",
+                "file": "Algorithms/Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Normalization.md",
+                "file": "Algorithms/Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Normalization.md"
+                "file": "Algorithms/Algorithms.md"
               }
             }
           },
@@ -181,11 +181,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cd47c6f161828cc3",
+  "active": "5022c6d82cb098c5",
   "lastOpenFiles": [
+    "Databases/Normalization.md",
+    "Algorithms/Algorithms.md",
     "Databases/Indexes.md",
     "Databases/Keys.md",
-    "Databases/Normalization.md",
     "Databases/Transitive Dependency.png",
     "Markdown Cheat Sheet.md",
     "Databases/Cardinality vs Modality.md",
@@ -215,7 +216,6 @@
     "Databases/Relational Database.md",
     "Databases/Referential Integrity.md",
     "Databases/RDBMS.md",
-    "Databases/Query.md",
     "Algorithms",
     "Pasted image 20230813212446.png",
     "Excalidraw",
