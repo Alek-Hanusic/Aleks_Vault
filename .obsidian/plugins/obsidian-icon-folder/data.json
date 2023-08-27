@@ -5,7 +5,10 @@
     "fontSize": 16,
     "emojiStyle": "none",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "RiClockwise2Line",
+      "RiLayout6Line"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -15,5 +18,7 @@
       "left": 0
     },
     "iconInTabsEnabled": false
-  }
+  },
+  "Databases": "RiLayout6Line",
+  "Algorithms": "RiClockwise2Line"
 }
