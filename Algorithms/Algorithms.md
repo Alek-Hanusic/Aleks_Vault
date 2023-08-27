@@ -16,9 +16,35 @@ Other types of analysis:
 	• Best case Complexity
 	• Average case Complexity
 
+## Asymptotic Notations
+Asymptotic notations are the mathematical notations used to describe the running time of an algorithm when the input tends towards a particular value or a limiting value.
+
+*For example: In bubble sort, when the input array is already sorted, the time taken by the algorithm is linear i.e. the best case.*
 ## Order of Growth
 Rate of growth of T(n)
 - We ignore lower-order terms in the formula
 - Formulas dominated by higher-order terms grow at faster pace while increasing the value n
 
 They (lower order) become more **insignificant** for large values of n.
+
+For instance, if given
+```T(n)	=	an2	+	bn	+	c```
+We only consider the dominant factor
+**n<sup>2</sup>**
+and we conclude that T(n) is a quadratic function in n
+
+## "Better" Algorithms
+An algorithm A1 is considered to be asymptotically more efficient than A2 if A1's **worst-case** running time has a lower order of growth than A2's.
+Still, A1 might not always be more efficient than A2.
+
+However, for large enough inputs, A1 will run more quickly in the worst case than A2
+
+We study the asymptotic efficiency of algorithms and consider the size of the input in the limit
+## 
+
+
+
+
+## Big-O Notation (O-notation)
+
+Big-O notation represents the upper bound of the running time of an algorithm. Thus, it gives the worst-case complexity of an algorithm.
