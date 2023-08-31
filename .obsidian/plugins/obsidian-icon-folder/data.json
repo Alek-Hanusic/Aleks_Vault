@@ -6,6 +6,8 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiArticleLine",
+      "RiArchiveFill",
       "RiClockwise2Line",
       "RiLayout6Line"
     ],
@@ -20,5 +22,6 @@
     "iconInTabsEnabled": false
   },
   "Databases": "RiLayout6Line",
-  "Algorithms": "RiClockwise2Line"
+  "Algorithms": "RiClockwise2Line",
+  "Databases/SQL Syntax.md": "RiArticleLine"
 }

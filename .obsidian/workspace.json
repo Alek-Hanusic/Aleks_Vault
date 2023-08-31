@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Algorithms.md",
+                "file": "Databases/SQL Syntax.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Algorithms.md",
+                "file": "Databases/SQL Syntax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Algorithms.md",
+                "file": "Databases/SQL Syntax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Algorithms.md"
+                "file": "Databases/SQL Syntax.md"
               }
             }
           },
@@ -181,11 +181,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5022c6d82cb098c5",
+  "active": "cd47c6f161828cc3",
   "lastOpenFiles": [
+    "Databases/SQL Constraints.md",
+    "Databases/SQL Syntax.md",
+    "Algorithms/Algorithms.md",
     "Algorithms/Pasted image 20230827234938.png",
     "Algorithms/Fibonacci Algos.png",
-    "Algorithms/Algorithms.md",
     "Markdown Cheat Sheet.md",
     "Databases/Normalization.md",
     "Databases/Indexes.md",
@@ -197,7 +199,6 @@
     "Excalidraw/Drawing 2023-08-21 23.22.25.excalidraw.md",
     "Databases/Composite Keys.png",
     "Excalidraw/Drawing 2023-08-20 23.08.51.excalidraw.md",
-    "Databases/SQL Constraints.md",
     "Databases/SQL.md",
     "Databases/Atomic Value.md",
     "Databases/ON UPDATE CASCADE.png",
