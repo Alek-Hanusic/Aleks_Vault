@@ -68,3 +68,8 @@ DROP COLUMN email;
 ```
 
 ## Inserting Rows
+```
+INSERT INTO employees
+VALUES (1,"Eugene", "Krabs","krabs@gmail.com", 25.50);
+
+```
