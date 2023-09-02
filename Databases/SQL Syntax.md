@@ -48,3 +48,23 @@ ADD phone_number VARCHAR(15);
 ALTER TABLE employees
 RENAME COLUMN phone_number to email;
 ```
+
+```
+ALTER TABLE employees
+MODIFY COLUMN email VARCHAR(100);
+```
+
+
+==Moving a column==
+```
+ALTER TABLE employees
+MODIFY email VARCHAR(100)
+AFTER last_name
+```
+
+```
+ALTER TABLE employees
+DROP COLUMN email;
+```
+
+## Inserting Rows
