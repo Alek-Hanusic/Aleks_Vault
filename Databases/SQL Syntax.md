@@ -111,3 +111,22 @@ Output:
 |---|---|---|---|---|
 |2|SpongeBob|SquarePants|spongebob@gmail.com|20.00|
 
+==other uses==
+```
+WHERE employee_id >= 1;
+#greater than or equal to
+
+#also less than or equal to
+```
+```
+WHERE employee_id != 1;
+#not equal to 1
+```
+
+```
+SELECT *
+FROM employees
+WHERE email IS NULL
+# returns the row of the employees whose email column  is empty
+```
+
