@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "7f99a3dfbc0c2b67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Joins.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b8fdd0198dc5ec72",
             "type": "leaf",
             "state": {
@@ -60,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "default",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,11 +181,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b2f7534c8c10bca2",
+  "active": "5022c6d82cb098c5",
   "lastOpenFiles": [
+    "Databases/Joins.md",
+    "Databases/SQL Syntax.md",
     "Databases/SQL Constraints.md",
     "Markdown Cheat Sheet.md",
-    "Databases/SQL Syntax.md",
     "Algorithms/Algorithms.md",
     "Algorithms/Pasted image 20230827234938.png",
     "Algorithms/Fibonacci Algos.png",
@@ -206,7 +218,6 @@
     "Databases/Views.md",
     "Databases/Relationships.md",
     "Databases/Relational Database.md",
-    "Databases/Referential Integrity.md",
     "Algorithms",
     "Pasted image 20230813212446.png",
     "Excalidraw",

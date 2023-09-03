@@ -349,3 +349,40 @@ INSERT INTO transactions(amount)
 VALUES (4.99)
 ```
 
+### Foreign Keys
+```
+CREATE TABLE customers(
+customer_id INT PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(100));
+
+INSERT INTO customers(name)
+VALUES ("James"),("John");
+
+CREATE TABLE transactions(
+transaction_id INT PRIMARY KEY AUTO_INCREMENT,
+amount DECIMAL(5,2),
+customer_id INT,
+FOREIGN KEY(customer_id) REFERENCES customers(customer_id));
+
+INSERT INTO transactions(amount,customer_id) VALUES
+(7.99,1),(55.22,2);
+```
+
+|customer_id|name|
+|---|---|
+|1|James|
+|2|John|
+
+
+|transaction_id|amount|customer_id|
+|---|---|---|
+|1|7.99|1|
+|2|55.22|2|
+
+> or alter an existing table and add constraint
+
+```
+ALTER TABLE transactions
+ADD CONSTRAINT fk_customer_id
+FOREIGN KEY(customer_id) REFERENCES customers(customer_id)
+```
