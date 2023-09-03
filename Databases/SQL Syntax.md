@@ -130,3 +130,9 @@ WHERE email IS NULL
 # returns the row of the employees whose email column  is empty
 ```
 
+```
+SELECT *
+FROM employees
+WHERE email IS NOT NULL
+# returns the row of the employees whose email column  is NOT empty
+```
