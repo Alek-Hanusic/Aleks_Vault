@@ -146,3 +146,95 @@ WHERE employee_id = 1;
 # changes email to "" to employee_id 1
 ```
 
+## DELETE
+`DO NOT DO THIS:`
+
+```
+DELETE FROM employees
+<blank>
+# it will delete all entries into the database
+```
+
+
+## Commits
+
+>This commits changes to the database
+```
+COMMIT;
+```
+
+>This reverts the database to the state it was on the last commit
+```
+ROLLBACK;
+```
+
+
+Auto commit can be disabled.
+```
+SET AUTOCOMMIT = OFF;
+```
+With this, transactions do NOT COMMIT automatically
+
+> COMMIT basically acts as a "save point" to which we can return when we want to
+
+
+## CURRENT_DATE&TIME()
+SQL has these functions to enter time/date of entry to database
+`CURRENT_DATE()`
+`CURRENT_TIME()`
+`NOW()`
+Imagine this table:
+
+|mydate|mytime|mydatetime|
+|---|---|---|
+|null|null|null|
+
+```
+INSERT INTO test
+VALUES (CURRENT_DATE(),CURRENT_TIME(),NOW());
+```
+
+|mydate|mytime|mydatetime|
+|---|---|---|
+|2023-09-03|15:45:51|2023-09-03 15:45:51|
+
+## Constraints
+
+### NOT NULL
+- ensures that a column cannot have a NULL Value
+### UNIQUE
+- ensures all values in a column are different (like a primary key)
+### ON UPDATE
+- when parent is updated, children will update
+
+```ON UPDATE [RESTRICT]```
+	Forbids it from updating, no action is done if we try to update parent
+`ON UPDATE [CASCADE]`
+	If parent is updated, child is updated as well
+	![[ON UPDATE CASCADE.png]]
+### ON DELETE
+- when parent is deleted, children will delete
+
+```ON DELETE [RESTRICT]```
+	Forbids it from deleting, no action is done if we try to delete parent
+`ON DELETE [CASCADE]`
+	If parent is deleted, child is deleted as well 
+	![[ON DELETE CASCADE.png]]
+		ParentID of 1 from **Parent Table** is deleted from **Child Table**
+
+### CHECK
+|employee_id|first_name|last_name|email|hourly_pay|
+|---|---|---|---|---|
+|1|Eugene|Krabs|krabs@gmail.com|25.50|
+|2|SpongeBob|SquarePants|spongebob@gmail.com|20.00|
+|3|Patrick|Star|patrick@gmail.com|18.75|
+|4|Squidward|Tentacles|squidward@gmail.com|22.00|
+|5|Sandy|Cheeks|sandy@gmail.com|24.75|
+|6|Pearl|Krabs|pearl@gmail.com|19.25|
+|7|Gary|Snail|gary@gmail.com|15.50|
+|8|Plankton|Plankton|plankton@gmail.com|30.00|
+|9|Mrs. Puff|Puff|mrspuff@gmail.com|21.50|
+|10|Larry|Lobster|larry@gmail.com|26.00|
+|11|Mermaid|Man|mermaidman@gmail.com|23.75|
+
+
