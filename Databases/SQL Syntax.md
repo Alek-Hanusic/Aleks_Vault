@@ -73,3 +73,41 @@ INSERT INTO employees
 VALUES (1,"Eugene", "Krabs","krabs@gmail.com", 25.50);
 
 ```
+
+Inserts only employee_id:
+```
+INSERT INTO employees (employee_id)
+VALUES (1);
+
+```
+
+## SELECT
+```
+SELECT first_name, last_name
+FROM employees
+```
+### Example 1
+```
+SELECT *
+FROM employees
+WHERE employee_id = 1;
+```
+
+Output:
+
+| employee ID   | first name     | last name   | email           | hour pay     |
+| --- | ------ | ----- | --------------- | ----- |
+| 1   | Eugene | Krabs | krabs@gmail.com | 25.50 |
+### Example 2
+
+```
+SELECT *
+FROM employees
+WHERE first_name = "Spongebob"
+```
+Output:
+
+| employee ID   | first name     | last name   | email           | hour pay     |
+|---|---|---|---|---|
+|2|SpongeBob|SquarePants|spongebob@gmail.com|20.00|
+
