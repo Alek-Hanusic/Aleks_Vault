@@ -326,4 +326,26 @@ transaction_id INT,
 amount DECIMAL(5,2),
 transaction_date DATETIME DEFAULT NOW());
 ```
-ll
+
+### Primary Key
+> we set transactionID as the PRIMARY KEY
+```
+CREATE TABLE transactions(
+transaction_id INT PRIMARY KEY,
+amount DECIMAL(5,2),
+```
+
+#### AUTO_INCREMENT
+> can be used as an attribute next to primary key
+
+```
+CREATE TABLE transactions(
+transaction_id INT PRIMARY KEY AUTO_INCREMENT,
+amount DECIMAL(5,2);
+```
+Usage:
+```
+INSERT INTO transactions(amount)
+VALUES (4.99)
+```
+
