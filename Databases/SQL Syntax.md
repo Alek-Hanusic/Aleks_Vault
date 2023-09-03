@@ -136,3 +136,13 @@ FROM employees
 WHERE email IS NOT NULL
 # returns the row of the employees whose email column  is NOT empty
 ```
+
+## UPDATE
+```
+UPDATE employees
+SET email = "spongebobkrabs@gmail.com"
+WHERE employee_id = 1;
+
+# changes email to "" to employee_id 1
+```
+
