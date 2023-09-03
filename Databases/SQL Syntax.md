@@ -223,18 +223,106 @@ VALUES (CURRENT_DATE(),CURRENT_TIME(),NOW());
 		ParentID of 1 from **Parent Table** is deleted from **Child Table**
 
 ### CHECK
-|employee_id|first_name|last_name|email|hourly_pay|
-|---|---|---|---|---|
-|1|Eugene|Krabs|krabs@gmail.com|25.50|
-|2|SpongeBob|SquarePants|spongebob@gmail.com|20.00|
-|3|Patrick|Star|patrick@gmail.com|18.75|
-|4|Squidward|Tentacles|squidward@gmail.com|22.00|
-|5|Sandy|Cheeks|sandy@gmail.com|24.75|
-|6|Pearl|Krabs|pearl@gmail.com|19.25|
-|7|Gary|Snail|gary@gmail.com|15.50|
-|8|Plankton|Plankton|plankton@gmail.com|30.00|
-|9|Mrs. Puff|Puff|mrspuff@gmail.com|21.50|
-|10|Larry|Lobster|larry@gmail.com|26.00|
-|11|Mermaid|Man|mermaidman@gmail.com|23.75|
+Example usage
+```
+CREATE TABLE employees (
+	employee_id INT,
+	first_name VARCHAR(50),
+	last_name VARCHAR(50),
+  email VARCHAR(100),
+	hourly_pay DECIMAL(5,2)
+	CHECK (hourly_pay >= 10.00)
+	
+);
+```
 
+| employee_id | first_name | hourly_pay |
+| ----------- | ---------- | ---------- |
+| 1           | Eugene     | 25.50      |
+| 2           | SpongeBob  | 20.00      |
+| 3           | Patrick    | 18.75      |
+| 4           | Squidward  | 22.00      |
+| 5           | Sandy      | 24.75      |
+| 6           | Pearl      | 19.25      |
+| 7           | Gary       | 15.50      |
+| 8           | Plankton   | 30.00      |
+| 9           | Mrs. Puff  | 21.50      |
+| 10          | Larry      | 26.00      |
+| 11          | Mermaid    | 23.75      |
 
+> all would pass however, it is good practice to name our constraints
+
+`CONSTRAINT chk_hourly_pay CHECK (hourly_pay >= 10.00)`
+
+```
+CREATE TABLE employees (
+	employee_id INT,
+	first_name VARCHAR(50),
+	last_name VARCHAR(50),
+  email VARCHAR(100),
+	hourly_pay DECIMAL(5,2)
+	CONSTRAINT chk_hourly_pay CHECK (hourly_pay >= 10.00)
+	
+);
+```
+
+> IF TABLE EXISTS ALREADY:
+
+```
+ALTER TABLE employees
+ADD CONSTRAINT chk_hourly_pay CHECK(hourly_pay >= 10.00)
+```
+
+> Output:
+>Error Code: 3819 Check constraint "chk_h_pay" is violated
+
+> TO DELETE THE CHECK
+
+```
+ALTER TABLE employees
+DROP CHECK chk_hourly_pay;
+```
+### DEFAULT
+
+| product_id | product_name | price |
+| ----------- | ---------- | ---------- |
+| null          | null     | null      |
+
+```
+INSERT INTO employees
+VALUES 
+(1,"Eugene", "Krabs","<email>", 15.00),
+(2, "SpngB", "SqrPnts", "<email>", 15.00)
+```
+> Maybe all our employees have the same hourly pay
+> We have to repeatedly enter the hourly pay
+
+> To circumvent this, use DEFAULT constraint
+
+```
+CREATE TABLE employees (
+	employee_id INT,
+	first_name VARCHAR(50),
+	last_name VARCHAR(50),
+  email VARCHAR(100),
+	hourly_pay DECIMAL(5,2) DEFAULT 15
+```
+
+> Now default pay is 15, and we do not need to list it when INSERTing values
+> HOWEVER, we need to list which columns we are inserting into
+
+```
+INSERT INTO employees(employeeID,first_n,last_n,email)
+
+VALUES 
+(1,"Eugene", "Krabs","<email>");
+```
+
+==GOOD TO USE WITH DATES==
+
+```
+CREATE TABLE transactions(
+transaction_id INT,
+amount DECIMAL(5,2),
+transaction_date DATETIME DEFAULT NOW());
+```
