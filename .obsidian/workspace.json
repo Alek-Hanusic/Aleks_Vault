@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/SQL Syntax.md",
+                "file": "Algorithms/Data Structures.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/SQL Syntax.md",
+                "file": "Algorithms/Data Structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/SQL Syntax.md",
+                "file": "Algorithms/Data Structures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/SQL Syntax.md"
+                "file": "Algorithms/Data Structures.md"
               }
             }
           },
@@ -181,14 +181,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5022c6d82cb098c5",
+  "active": "6c698d81d966a095",
   "lastOpenFiles": [
-    "Databases/Joins.md",
+    "Pasted image 20230904233736.png",
+    "Algorithms/Algorithms.md",
+    "Algorithms/Data Structures.md",
     "Databases/SQL Syntax.md",
+    "Databases/Joins.md",
     "Databases/SQL Constraints.md",
     "Markdown Cheat Sheet.md",
-    "Algorithms/Algorithms.md",
-    "Algorithms/Pasted image 20230827234938.png",
+    "Algorithms/Stack.png",
     "Algorithms/Fibonacci Algos.png",
     "Databases/Normalization.md",
     "Databases/Indexes.md",
@@ -216,8 +218,6 @@
     "Databases/DDL.md",
     "Databases/Data Integrity.md",
     "Databases/Views.md",
-    "Databases/Relationships.md",
-    "Databases/Relational Database.md",
     "Algorithms",
     "Pasted image 20230813212446.png",
     "Excalidraw",
