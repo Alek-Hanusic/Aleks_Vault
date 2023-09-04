@@ -31,7 +31,7 @@ Rate of growth of T(n)
 They (lower order) become more **insignificant** for large values of n.
 
 For instance, if given
-![[Stack.png]]
+![[Dominant Factor.png]]
 We only consider the dominant factor which is **n<sup>2</sup>**
 and we conclude that T(n) is a quadratic function in n
 
