@@ -11,12 +11,8 @@
             "id": "5022c6d82cb098c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Data Structures.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -109,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Data Structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +121,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Data Structures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +142,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algorithms/Data Structures.md"
-              }
+              "state": {}
             }
           },
           {
@@ -183,11 +175,17 @@
   },
   "active": "5022c6d82cb098c5",
   "lastOpenFiles": [
+    "Algorithms/Data Structures.md",
+    "Algorithms/Doubly Linked List 2.png",
+    "Algorithms/Doubly Linked List.png",
+    "Pasted image 20230905003936.png",
+    "Algorithms/Queue 2.png",
+    "Algorithms/Linked List 2.png",
+    "Algorithms/Linked List.png",
     "Algorithms/Queue.png",
     "Algorithms/Stack.png",
     "Algorithms/Dominant Factor.png",
     "Algorithms/Algorithms.md",
-    "Algorithms/Data Structures.md",
     "Databases/SQL Syntax.md",
     "Databases/Joins.md",
     "Databases/SQL Constraints.md",
@@ -196,22 +194,16 @@
     "Databases/Normalization.md",
     "Databases/Indexes.md",
     "Databases/Keys.md",
-    "Databases/Transitive Dependency.png",
     "Databases/Cardinality vs Modality.md",
     "Databases/Cardinality.md",
-    "Databases/Cardinality Ex.png",
     "Excalidraw/Drawing 2023-08-21 23.22.25.excalidraw.md",
-    "Databases/Composite Keys.png",
     "Excalidraw/Drawing 2023-08-20 23.08.51.excalidraw.md",
     "Databases/SQL.md",
     "Databases/Atomic Value.md",
-    "Databases/ON UPDATE CASCADE.png",
-    "Databases/ON DELETE CASCADE.png",
     "Excalidraw/Drawing 2023-08-20 21.00.50.excalidraw.md",
     "Databases/Domain Integrity.md",
     "Databases/Database Design.md",
     "Databases/Attributes.md",
-    "Pasted image 20230820211038.png",
     "Databases/Entity Integrity.md",
     "Databases/Entities.md",
     "Databases/DML.md",
