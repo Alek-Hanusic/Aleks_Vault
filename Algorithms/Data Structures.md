@@ -174,3 +174,12 @@ Here are some of the applications of a linked list:
 - In mobile phones, we save the contacts of people. The newly entered contact details will be placed at the correct alphabetical order.
 - This can be achieved by a linked list to set contact at the correct alphabetical position.
 - The modifications that we made in the documents are actually created as nodes in doubly linked list. We can simply use the undo option by pressing **Ctrl+Z** to modify the contents. It is done by the functionality of a linked list.
+
+
+# Dynamic Array
+
+
+
+>A Dynamic Array automatically grows when we try to make an insertion and there is no more space left for the new item. Usually the area doubles in size.
+
+**Approach:** When we enter an element in array but array is full then you create a function, this function creates a new array double size or as you wish and copy all element from the previous array to a new array and return this new array.
