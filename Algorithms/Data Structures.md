@@ -183,3 +183,12 @@ Here are some of the applications of a linked list:
 >A Dynamic Array automatically grows when we try to make an insertion and there is no more space left for the new item. Usually the area doubles in size.
 
 **Approach:** When we enter an element in array but array is full then you create a function, this function creates a new array double size or as you wish and copy all element from the previous array to a new array and return this new array.
+
+| Advantages | Disadvantages      |
+| ---------- | ------------------ |
+| Random access of elements **O(1)** by index number | Wastes more memory |
+| Good locality of reference and data cache utilization |  Shifting elements is time consuming O(n) |
+| Easy to insert/delete at the end |  Expanding/Shrinking the array is time consuming **O(n)** (all elements have to be copied over to new array) |
+
+
+j
