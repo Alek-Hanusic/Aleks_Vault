@@ -79,16 +79,16 @@ print(get_first(data))
 
 ## Logarithmic Time — O(log n)
 
->An algorithm is said to have a logarithmic time complexity when it reduces the size of the input data in each step (it don’t need to look at all values of the input data), for example:
+>An algorithm is said to have a logarithmic time complexity when it reduces the size of the input data in each step (it don’t need to look at all values of the input data).
 
-> Good example is binary search
+> Good example is binary search:
 
-```python Code Block
+```python Binary Search
 def binary_search(data, value):  
 	n = len(data)  
 	left = 0  # we start from index 0 (left)  
 	right = n - 1  # end is on the final index
-	while left <= right:  
+	while left <= right:#Repeat the steps above until the value is found or the left bounder is equal or higher the right bounder.
 		middle = (left + right) // 2  # find middle index
 		if value < data[middle]:  # if it is less than middle value
 			right = middle - 1  # end is now index left of middle
@@ -107,3 +107,68 @@ left = 0
 right = 8
 middle = 4
 ```
+
+## Linear Time — O(n)
+
+>An algorithm is said to have a linear time complexity when the running time increases at most linearly with the size of the input data. This is the best possible time complexity when the algorithm must examine all values in the input data.
+
+Let’s take a look at the example of a linear search, where we need to find the position of an element in an unsorted list:
+
+```python
+def linear_search(data, value):  
+	for index in range(len(data)):  # for each index
+		if value == data[index]:  # check if value is the one
+			return index  #if it is, return the value
+	raise ValueError('Value not found in the list')  
+  
+if __name__ == '__main__':  
+	data = [1, 2, 9, 8, 3, 4, 7, 6, 5]  
+	print(linear_search(data, 7))
+```
+
+> Basically,  it runs through each value to see if it is the one we look for
+
+## Quasilinear Time — O(n log n)
+>An algorithm is said to have a quasilinear time complexity when each operation in the input data have a logarithm time complexity. It is commonly seen in sorting algorithms (e.g. mergesort, timsort, heapsort).
+
+>A complex example, can be found in the Mergesort algorithm. Mergesort is an efficient, general-purpose, comparison-based sorting algorithm which has quasilinear time complexity, let’s see an example:
+
+```python
+def merge_sort(data):  
+	if len(data) <= 1:  
+		return  
+  
+	mid = len(data) // 2  
+	left_data = data[:mid]  
+	right_data = data[mid:]  
+  
+	merge_sort(left_data)  
+	merge_sort(right_data)  
+  
+	left_index = 0  
+	right_index = 0  
+	data_index = 0  
+  
+	while left_index < len(left_data) and right_index < len(right_data):  
+	if left_data[left_index] < right_data[right_index]:  
+data[data_index] = left_data[left_index]  
+left_index += 1  
+else:  
+data[data_index] = right_data[right_index]  
+right_index += 1  
+data_index += 1  
+  
+if left_index < len(left_data):  
+del data[data_index:]  
+data += left_data[left_index:]  
+elif right_index < len(right_data):  
+del data[data_index:]  
+data += right_data[right_index:]  
+  
+if __name__ == '__main__':  
+data = [9, 1, 7, 6, 2, 8, 5, 3, 4, 0]  
+merge_sort(data)  
+print(data)
+```
+
+![[Mergesort.png]]
