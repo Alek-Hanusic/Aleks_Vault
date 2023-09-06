@@ -191,4 +191,3 @@ Here are some of the applications of a linked list:
 | Easy to insert/delete at the end |  Expanding/Shrinking the array is time consuming **O(n)** (all elements have to be copied over to new array) |
 
 
-j
