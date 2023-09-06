@@ -49,9 +49,11 @@ We study the asymptotic efficiency of algorithms and consider the size of the in
 #  Notation
 >We use notations to describe the running times of algorithms 
 ## Big-O Notation (O-notation)
+"How code slows as data grows"
 
 >Big-O notation represents the upper bound of the running time of an algorithm. Thus, it gives the ***worst-case*** complexity of an algorithm.
 
+> Ignore smaller operations see (Order of Growth)
 ## Theta Notation (Θ-Notation):
 >Theta notation encloses the function from above and below. Since it represents the upper and the lower bound of the running time of an algorithm, it is used for analyzing the ***average-case*** complexity of an algorithm.
 
@@ -59,3 +61,49 @@ We study the asymptotic efficiency of algorithms and consider the size of the in
 
 > Omega notation represents the lower bound of the running time of an algorithm. Thus, it provides the ***best case*** complexity of an algorithm.
 
+# Time Complexity Examples
+
+## Constant Time — O(1)
+
+>An algorithm is said to have a constant time when it is not dependent on the input data (n).
+
+```python
+data = [1, 2, 9, 8, 3, 4, 7, 6, 5]
+
+def get_first(data):  
+return data[0]
+
+print(get_first(data))
+```
+
+
+## Logarithmic Time — O(log n)
+
+>An algorithm is said to have a logarithmic time complexity when it reduces the size of the input data in each step (it don’t need to look at all values of the input data), for example:
+
+> Good example is binary search
+
+```python Code Block
+def binary_search(data, value):  
+	n = len(data)  
+	left = 0  # we start from index 0 (left)  
+	right = n - 1  # end is on the final index
+	while left <= right:  
+		middle = (left + right) // 2  # find middle index
+		if value < data[middle]:  # if it is less than middle value
+			right = middle - 1  # end is now index left of middle
+		elif value > data[middle]:  # if value higher than middle
+			left = middle + 1  #start is right of middle index
+		else:  
+			return middle  # middle is the value we looked for
+	raise ValueError('Value is not in the list')
+
+if __name__ == '__main__':  
+data = [1, 2, 3, 4, 5, 6, 7, 8, 9]  
+print(binary_search(data, 8))
+
+
+left = 0
+right = 8
+middle = 4
+```

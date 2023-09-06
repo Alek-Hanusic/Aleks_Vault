@@ -11,7 +11,7 @@
 - `top() / peek()` – Returns a reference to the topmost element of the stack – Time Complexity: O(1)
 - `push(a)` – Inserts the element ‘a’ at the top of the stack – Time Complexity: O(1)
 - `pop()` – Deletes the topmost element of the stack – Time Complexity: O(1)
-```
+``` python
 # Python program to
 # demonstrate stack implementation
 # using list
@@ -67,7 +67,7 @@ print(stack)
 - **Rear:** Get the last item from queue – Time Complexity : O(1)
 
 
-```
+``` python
 # Python program to
 # demonstrate queue implementation
 # using list

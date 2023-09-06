@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Data Structures.md",
+                "file": "Algorithms/Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Data Structures.md",
+                "file": "Algorithms/Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Data Structures.md",
+                "file": "Algorithms/Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Data Structures.md"
+                "file": "Algorithms/Algorithms.md"
               }
             }
           },
@@ -183,8 +183,8 @@
   },
   "active": "5022c6d82cb098c5",
   "lastOpenFiles": [
-    "Algorithms/Algorithms.md",
     "Algorithms/Data Structures.md",
+    "Algorithms/Algorithms.md",
     "Algorithms/Doubly Linked List 2.png",
     "Algorithms/Doubly Linked List.png",
     "Pasted image 20230905003936.png",
