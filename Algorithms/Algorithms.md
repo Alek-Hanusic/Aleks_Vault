@@ -35,7 +35,19 @@ For instance, if given
 We only consider the dominant factor which is **n<sup>2</sup>**
 and we conclude that T(n) is a quadratic function in n
 
+```python
+def my_function(data):
+    first_element = data[0]
+    
+    for value in data:
+        print(value)
+    
+    for x in data:
+        for y in data:
+            print(x, y)
+```
 
+>Even that the operations in ‘my_function’ don’t make sense we can see that it has multiple time complexities: **O(1) + O(n) + O(n²)**. So, when increasing the size of the input data, the **bottleneck** of this algorithm will be the operation that takes **O(n²)**. Based on this, we can describe the time complexity of this algorithm as **O(n²)**.
 
 ## "Better" Algorithms
 >An algorithm A1 is considered to be asymptotically more efficient than A2 if A1's ***worst-case*** running time has a lower order of growth than A2's.
@@ -151,24 +163,126 @@ def merge_sort(data):
   
 	while left_index < len(left_data) and right_index < len(right_data):  
 	if left_data[left_index] < right_data[right_index]:  
-data[data_index] = left_data[left_index]  
-left_index += 1  
-else:  
-data[data_index] = right_data[right_index]  
-right_index += 1  
-data_index += 1  
+		data[data_index] = left_data[left_index]  
+		left_index += 1  
+	else:  
+		data[data_index] = right_data[right_index]  
+		right_index += 1  
+	data_index += 1  
   
-if left_index < len(left_data):  
-del data[data_index:]  
-data += left_data[left_index:]  
-elif right_index < len(right_data):  
-del data[data_index:]  
-data += right_data[right_index:]  
+	if left_index < len(left_data):  
+		del data[data_index:]  
+		data += left_data[left_index:]  
+	elif right_index < len(right_data):  
+		del data[data_index:]  
+		data += right_data[right_index:]  
   
 if __name__ == '__main__':  
-data = [9, 1, 7, 6, 2, 8, 5, 3, 4, 0]  
-merge_sort(data)  
-print(data)
+	data = [9, 1, 7, 6, 2, 8, 5, 3, 4, 0]  
+	merge_sort(data)  
+	print(data)
 ```
 
 ![[Mergesort.png]]
+
+## Quadratic Time — O(n²)
+
+>An algorithm is said to have a quadratic time complexity when it needs to perform a linear time operation for each value in the input data, for example:
+
+```python
+for x in data:  
+	for y in data:  
+		print(x, y)
+```
+
+>Bubble sort is a great example of quadratic time complexity since for each value it needs to compare to all other values in the list, let’s see an example:
+
+```python
+def bubble_sort(data):  
+	swapped = True  
+	while swapped:  
+		swapped = False  
+		for i in range(len(data)-1):  
+			if data[i] > data[i+1]:  
+				data[i], data[i+1] = data[i+1], data[i]  
+				swapped = True  
+  
+if __name__ == '__main__':  
+	data = [9, 1, 7, 6, 2, 8, 5, 3, 4, 0]  
+	bubble_sort(data)  
+	print(data)
+```
+
+## Exponential Time — O(2^n)
+
+>An algorithm is said to have an exponential time complexity when the growth doubles with each addition to the input data set. This kind of time complexity is usually seen in brute-force algorithms.
+
+As exemplified by Vicky Lai:
+
+_In cryptography, a brute-force attack may systematically check all possible elements of a password by iterating through subsets. Using an exponential algorithm to do this, it becomes incredibly resource-expensive to brute-force crack a long password versus a shorter one. This is one reason that a long password is considered more secure than a shorter one._
+
+Another example of an exponential time algorithm is the recursive calculation of [Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_number) numbers:
+
+```python
+def fibonacci(n):  
+    if n <= 1:  
+        return n  
+    return fibonacci(n-1) + fibonacci(n-2)
+```
+
+>A recursive function may be described as a function that calls itself in specific conditions. As you may have noticed, the time complexity of recursive functions is a little harder to define since it depends on how many times the function is called and the time complexity of a single function call.
+
+>Using n= 4
+
+![[Fibonacci.png]]
+
+
+## Factorial — O(n!)
+
+An algorithm is said to have a factorial time complexity when it grows in a factorial way based on the size of the input data, for example:
+
+``` 
+2! = 2 x 1 = 2  
+3! = 3 x 2 x 1 = 6  
+4! = 4 x 3 x 2 x 1 = 24  
+5! = 5 x 4 x 3 x 2 x 1 = 120  
+6! = 6 x 5 x 4 x 3 x 2 x 1 = 720  
+7! = 7 x 6 x 5 x 4 x 3 x 2 x 1 = 5.040  
+8! = 8 x 7 x 6 x 5 x 4 x 3 x 2 x 1 = 40.320
+```
+
+>A great example of an algorithm which has a factorial time complexity is the Heap’s algorithm, which is used for generating all possible permutations of _n_ objects.
+
+```python
+def heap_permutation(data, n):
+    if n == 1:
+        print(data)
+        return
+    
+    for i in range(n):
+        heap_permutation(data, n - 1)
+        if n % 2 == 0:
+            data[i], data[n-1] = data[n-1], data[i]
+        else:
+            data[0], data[n-1] = data[n-1], data[0]
+    
+if __name__ == '__main__':
+    data = [1, 2, 3]
+    heap_permutation(data, len(data))
+```
+
+Output:
+```python
+[1, 2, 3]  
+[2, 1, 3]  
+[3, 1, 2]  
+[1, 3, 2]  
+[2, 3, 1]  
+[3, 2, 1]
+```
+
+# Cheat Sheets
+
+![[Data Structure Operations.png]]
+
+![[Sorting Algorithms.png]]
