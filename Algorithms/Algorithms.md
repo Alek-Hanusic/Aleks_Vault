@@ -310,6 +310,13 @@ def binary_search(list,target):
 	start = 0
 	end = len(list) - 1
 	while start <= last:
+		midpoint = (start+end)//2
+		if list[midpoint] == target:
+			return midpoint
+		if list[midpoint] < target:
+			end = midpoint -1
+		if list[midpoint] > target:
+			start = midpoint +1
 	
 
 
@@ -358,4 +365,4 @@ middle = 4
 
 ![[Data Structure Operations.png]]
 
-![[Sorting Algorithms.png]]
+![[Sorting Algorithms.png]]1
