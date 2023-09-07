@@ -307,19 +307,36 @@ def linear_search(list, target):
 ```python
 list = [1,2,3,4,5,6,7,8]
 def binary_search(list,target):
-	left = 0
-	right = len(list)-1
-	mid = (left+right)//2
-	
-	if list[mid] = target
-		return True
-	if list[mid] > target:
-		left = mid + 1
+	start = 0
+	end = len(list) - 1
+	while start <= last:
 	
 
 
 
 
+def binary_search(data, value):  
+	n = len(data)  
+	left = 0  # we start from index 0 (left)  
+	right = n - 1  # end is on the final index
+	while left <= right:#Repeat the steps above until the value is found or the left bounder is equal or higher the right bounder.
+		middle = (left + right) // 2  # find middle index
+		if value < data[middle]:  # if it is less than middle value
+			right = middle - 1  # end is now index left of middle
+		elif value > data[middle]:  # if value higher than middle
+			left = middle + 1  #start is right of middle index
+		else:  
+			return middle  # middle is the value we looked for
+	raise ValueError('Value is not in the list')
+
+if __name__ == '__main__':  
+data = [1, 2, 3, 4, 5, 6, 7, 8, 9]  
+print(binary_search(data, 8))
+
+
+left = 0
+right = 8
+middle = 4
 ```
 
 
