@@ -281,6 +281,27 @@ Output:
 [3, 2, 1]
 ```
 
+# Search Algorithms
+## Linear Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Cheat Sheets
 
 ![[Data Structure Operations.png]]
