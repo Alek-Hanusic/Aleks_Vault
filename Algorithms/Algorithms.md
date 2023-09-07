@@ -283,9 +283,44 @@ Output:
 
 # Search Algorithms
 ## Linear Search
+> Time complexity O(n), it depends on the input size (list size) because it has to check each individual value
+
+```python
+def search(list,n):
+	index = 0
+	while index < len(list):
+		if list[index] == n
+			return True
+		index = index + 1
+	return False
+```
+
+```python
+def linear_search(list, target):
+	i = 0
+	for i in range(0, len(list)):
+		if list[i] == target:
+			return i
+	return False
+```
+
+```python
+list = [1,2,3,4,5,6,7,8]
+def binary_search(list,target):
+	left = 0
+	right = len(list)-1
+	mid = (left+right)//2
+	
+	if list[mid] = target
+		return True
+	if list[mid] > target:
+		left = mid + 1
+	
 
 
 
+
+```
 
 
 
