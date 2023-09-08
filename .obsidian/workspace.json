@@ -8,44 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5022c6d82cb098c5",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Algorithms/Images/Data Structure Operations.png"
-              }
-            }
-          },
-          {
-            "id": "f5ead00ae8e50b69",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Algorithms/Images/Dominant Factor.png"
-              }
-            }
-          },
-          {
             "id": "49bbe5bae17ccaaf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f99a3dfbc0c2b67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Joins.md",
+                "file": "Algorithms/Data Structures.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "80b0dca6c9cfa2c4",
@@ -131,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Algorithms.md",
+                "file": "Algorithms/Data Structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Algorithms.md",
+                "file": "Algorithms/Data Structures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Algorithms.md"
+                "file": "Algorithms/Data Structures.md"
               }
             }
           },
@@ -205,10 +171,11 @@
   },
   "active": "49bbe5bae17ccaaf",
   "lastOpenFiles": [
+    "Algorithms/Algorithms.md",
+    "Databases/Joins.md",
     "Algorithms/Images/Dominant Factor.png",
     "Algorithms/Data Structures.md",
     "Algorithms/Images/Data Structure Operations.png",
-    "Algorithms/Algorithms.md",
     "Algorithms/Images",
     "Algorithms/Images/Sorting Algorithms.png",
     "Algorithms/Images/Fibonacci.png",
@@ -219,7 +186,6 @@
     "Pasted image 20230905003936.png",
     "Algorithms/Images/Queue 2.png",
     "Databases/SQL Syntax.md",
-    "Databases/Joins.md",
     "Databases/SQL Constraints.md",
     "Markdown Cheat Sheet.md",
     "Databases/Normalization.md",

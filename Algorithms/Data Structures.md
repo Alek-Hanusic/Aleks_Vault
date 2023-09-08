@@ -118,7 +118,7 @@ print(queue)
 |Time Complexity|O(1)|O(n)|O(n)|
 
 # Linked List
-In an array, if an element at index 3 is deleted, then all the elements at indexes >3 must be moved one index down (in memory location they have to be next to each other )
+In an array, if an element at index 3 is deleted, then all the elements at indexes >3 must be moved one index down (in memory location they have to be next to each other)
 
 ![[Linked List.png]]
 
