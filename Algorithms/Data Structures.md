@@ -136,6 +136,33 @@ Traversal of items can be done in both forward and backward directions as every 
 ![[Doubly Linked List.png]]
 
 
+```python
+class Node:
+	def __init__(self,data):
+		self.data = data
+		self.next = None
+		self.prev = None
+
+class LinkedList:
+	def __init__(self):
+		self.head = None
+	def search(self,target):
+		current = self.head
+		while current:
+			if current.data == target:
+				return current
+			current = current.next
+		return None
+	def insert(self,node):
+		node.next = self.head
+		if self.head:
+			self.head.prev = node
+		self.head = node
+		node.prev = None
+
+
+```
+
 > Disadvantage:
 > Linked Lists take up a lot of memory
 
