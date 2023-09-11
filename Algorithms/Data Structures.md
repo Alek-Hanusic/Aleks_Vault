@@ -123,6 +123,13 @@ In an array, if an element at index 3 is deleted, then all the elements at index
 ![[Linked List.png]]
 
 ![[Linked List 2.png]]
+
+## Disjoint-Sets
+also called union-finds or merge-finds
+
+>Disjoint Sets -> Sets that have no elements in common
+>also called mutually exclusive or independent
+
 ## Doubly Linked Lists
 Traversal of items can be done in both forward and backward directions as every node contains an additional **prev** pointer that points to the previous node.
 ![[Doubly Linked List 2.png]]
