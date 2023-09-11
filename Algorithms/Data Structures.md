@@ -124,7 +124,7 @@ In an array, if an element at index 3 is deleted, then all the elements at index
 
 ![[Linked List 2.png]]
 
-## Disjoint-Sets
+##  t-Sets
 also called union-finds or merge-finds
 
 >Disjoint Sets -> Sets that have no elements in common
