@@ -20,16 +20,6 @@
             }
           },
           {
-            "id": "e71c0c0af7ce11af",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.10"
-              }
-            }
-          },
-          {
             "id": "b8fdd0198dc5ec72",
             "type": "leaf",
             "state": {
@@ -41,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,7 +179,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e71c0c0af7ce11af",
+  "active": "49bbe5bae17ccaaf",
   "lastOpenFiles": [
     "Algorithms/Algorithms.md",
     "Databases/Joins.md",
