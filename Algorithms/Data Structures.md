@@ -225,3 +225,30 @@ Here are some of the applications of a linked list:
 | Easy to insert/delete at the end |  Expanding/Shrinking the array is time consuming **O(n)** (all elements have to be copied over to new array) |
 
 
+# Hash Tables
+
+>A Hash table is defined as a data structure used to insert, look up, and remove key-value pairs quickly. It operates on the hashing concept, where each key is translated by a hash function into a distinct index in an array. The index functions as a storage location for the matching value. **In simple words, it maps the keys with the value.**
+
+
+![[Hash table.png]]
+
+![[Hash Table 2.png]]
+
+
+Hashing is a technique or process of mapping keys, and values into the hash table by using a hash function. It is done for faster access to elements. The efficiency of mapping depends on the efficiency of the hash function used.
+
+Let a hash function H(x) maps the value **x** at the index **x%10** in an Array. For example if the list of values is [11,12,13,14,15] it will be stored at positions {1,2,3,4,5} in the array or Hash table respectively.
+
+![[Hash Table 3.png]]
+
+Some hash functions use modulo to determine index
+## Complexity Analysis of a Hash Table:
+
+For lookup, insertion, and deletion operations, hash tables have an average-case time complexity of O(1). Yet, these operations may, in the worst case, require O(n) time, where n is the number of elements in the table.
+
+## Applications of Hash Table:
+
+- Hash tables are frequently used for indexing and searching massive volumes of data. A search engine might use a hash table to store the web pages that it has indexed.
+- Data is usually cached in memory via hash tables, enabling rapid access to frequently used information. 
+- Hash functions are frequently used in cryptography to create digital signatures, validate data, and guarantee data integrity.
+- Hash tables can be used for implementing database indexes, enabling fast access to data based on key values.
