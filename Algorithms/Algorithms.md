@@ -327,10 +327,12 @@ def binary_search(list,target):
 Ex: Find smallest element and move it left
 Ex2: Find largest element and movie it to the right
 
+>  It has an O(n2) time complexity, which makes it inefficient on large lists, and generally performs worse than the similar insertion sort.
 
+## Double Selection Sort
+> **Double selection sort** is an improvement on regular selection sort. It finds both the _smallest_ and the _largest_ number and puts them at the beginning or end of list.
 
-
-
+****Both selection sort and bidirectional selection sort have quadratic time complexities, making them inefficient for large datasets. They are primarily used for educational purposes or in situations where simplicity is more important than efficiency. For larger datasets, more efficient sorting algorithms like merge sort, quicksort, or heap sort are typically preferred.***
 
 
 
