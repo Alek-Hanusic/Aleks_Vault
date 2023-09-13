@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Data Structures.md",
+                "file": "Algorithms/Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Data Structures.md",
+                "file": "Algorithms/Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Data Structures.md",
+                "file": "Algorithms/Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Data Structures.md"
+                "file": "Algorithms/Algorithms.md"
               }
             }
           },
@@ -179,15 +179,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cd47c6f161828cc3",
+  "active": "49bbe5bae17ccaaf",
   "lastOpenFiles": [
+    "Algorithms/Data Structures.md",
+    "Markdown Cheat Sheet.md",
     "Algorithms/Images/Hash Table 3.png",
     "Algorithms/Images/Hash Table 2.png",
     "Algorithms/Images/Hash table.png",
     "Algorithms/Algorithms.md",
     "Databases/Joins.md",
     "Algorithms/Images/Dominant Factor.png",
-    "Algorithms/Data Structures.md",
     "Algorithms/Images/Data Structure Operations.png",
     "Algorithms/Images",
     "Algorithms/Images/Sorting Algorithms.png",
@@ -195,10 +196,8 @@
     "Algorithms/Images/Mergesort.png",
     "Pasted image 20230906140049.png",
     "Algorithms/Images/Doubly Linked List 2.png",
-    "Algorithms/Images/Doubly Linked List.png",
     "Databases/SQL Syntax.md",
     "Databases/SQL Constraints.md",
-    "Markdown Cheat Sheet.md",
     "Databases/Normalization.md",
     "Databases/Indexes.md",
     "Databases/Keys.md",

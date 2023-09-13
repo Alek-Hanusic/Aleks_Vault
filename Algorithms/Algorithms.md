@@ -319,7 +319,13 @@ def binary_search(list,target):
 			start = midpoint +1
 ```
 
+# Sorting Algorithms
 
+## Selection Sort
+>**Selection sort** is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and moving it to the sorted portion of the list.
+
+Ex: Find smallest element and move it left
+Ex2: Find largest element and movie it to the right
 
 
 
