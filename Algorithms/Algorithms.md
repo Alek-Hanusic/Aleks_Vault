@@ -352,7 +352,7 @@ for i: 1 to length(A)-1
 
 >Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time.
 
->The time complexity of insertion sort is also O(n^2), where n is the number of elements in the array.
+>The time complexity of insertion sort is also **O(n^2)**, where n is the number of elements in the array.
 
 >It involves two nested loops. The outer loop runs n times (for n elements), and the inner loop runs on average n/2 times for each element in the worst case scenario.
 
