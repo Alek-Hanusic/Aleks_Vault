@@ -322,21 +322,41 @@ def binary_search(list,target):
 # Sorting Algorithms
 
 ## Selection Sort
->**Selection sort** is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and moving it to the sorted portion of the list.
 
-Ex: Find smallest element and move it left
-Ex2: Find largest element and movie it to the right
+>Selection sort is a simple sorting algorithm that works by repeatedly selecting the minimum element from the unsorted portion of the array and swapping it with the first element of the unsorted portion.
 
->  It has an O(n2) time complexity, which makes it inefficient on large lists, and generally performs worse than the similar insertion sort.
+>The time complexity of selection sort is O(n^2), where n is the number of elements in the array.
+
+It involves two nested loops. The outer loop runs n times (for n elements), and the inner loop runs n - 1 times on average (for the remaining unsorted elements).
 
 ## Double Selection Sort
-> **Double selection sort** is an improvement on regular selection sort. It finds both the _smallest_ and the _largest_ number and puts them at the beginning or end of list.
 
-****Both selection sort and bidirectional selection sort have quadratic time complexities, making them inefficient for large datasets. They are primarily used for educational purposes or in situations where simplicity is more important than efficiency. For larger datasets, more efficient sorting algorithms like merge sort, quicksort, or heap sort are typically preferred.***
+>Bidirectional selection sort is a variation of selection sort that works by selecting both the minimum and maximum elements from the unsorted portion of the array in each pass and swapping them with the first and last elements of the unsorted portion, respectively.
+
+>The time complexity of bidirectional selection sort is also O(n^2), where n is the number of elements in the array.
+
+ Like regular selection sort, bidirectional selection sort also involves two nested loops. The outer loop runs n/2 times (approximately), and the inner loop runs n - 1 times on average for each half of the unsorted portion.
+
+***Both selection sort and bidirectional selection sort have quadratic time complexities, making them inefficient for large datasets. They are primarily used for educational purposes or in situations where simplicity is more important than efficiency. For larger datasets, more efficient sorting algorithms like merge sort, quicksort, or heap sort are typically preferred.***
+
+## Insertion Sort
+
+```pseudocode
+for i: 1 to length(A)-1
+	j = i
+	while j>0 and A[j-1]>A[j]
+		swap A[j] and A[j-1]
+	j = j-1
+```
 
 
+>Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time.
 
+>The time complexity of insertion sort is also O(n^2), where n is the number of elements in the array.
 
+>It involves two nested loops. The outer loop runs n times (for n elements), and the inner loop runs on average n/2 times for each element in the worst case scenario.
+
+Insertion sort is similar in time complexity to selection sort and is considered inefficient for large datasets. However, it has some advantages over selection sort, such as being adaptive (meaning it performs well on partially sorted data) and stable (it maintains the relative order of equal elements).
 
 
 
