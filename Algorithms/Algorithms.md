@@ -371,6 +371,102 @@ Insertion sort is similar in time complexity to selection sort and is considered
 ![[Bubble_sort.gif]]
 > Worst case time complexity of **O(n^2)**
 
+
+## Merge sort
+>Uses **divide and conquer strategy**
+
+
+>**Algorithmic Steps:**
+
+- **Divide:** The unsorted list is divided into two (or more) sublists of roughly equal size.
+- **Conquer:** Each sublist is recursively sorted using the merge sort algorithm.
+- **Merge:** The sorted sublists are then merged back together to produce a single sorted list. This merging step is where the algorithm gets its name.
+
+**Space Complexity:** Merge sort is not an in-place sorting algorithm, meaning it requires additional memory to store the sublists during the sorting process. The space complexity is O(n), as it needs temporary storage for the sublists being merged.
+
+>**Time Complexity:** Merge sort guarantees a time complexity of O(n log n), where n is the number of elements in the list.
+
+```python
+def mergeSort(myList):
+
+    if len(myList) > 1:
+
+        mid = len(myList) // 2
+        left = myList[:mid]
+        right = myList[mid:]
+  
+
+        # Recursive call on each half
+        mergeSort(left)
+        mergeSort(right)
+
+  
+
+        # Two iterators for traversing the two halves
+
+        i = 0
+
+        j = 0
+
+        # Iterator for the main list
+
+        k = 0
+
+        while i < len(left) and j < len(right):
+
+            if left[i] <= right[j]:
+
+              # The value from the left half has been used
+
+              myList[k] = left[i]
+
+              # Move the iterator forward
+
+              i += 1
+
+            else:
+
+                myList[k] = right[j]
+
+                j += 1
+
+            # Move to the next slot
+
+            k += 1
+
+  
+
+        # For all the remaining values
+
+        while i < len(left):
+
+            myList[k] = left[i]
+
+            i += 1
+
+            k += 1
+
+  
+
+        while j < len(right):
+
+            myList[k]=right[j]
+
+            j += 1
+
+            k += 1
+
+  
+
+myList = [54,26,93,17,77,31,44,55,20]
+
+mergeSort(myList)
+
+print(myList)
+```
+
+
+
 # Cheat Sheets
 
 ![[Data Structure Operations.png]]
