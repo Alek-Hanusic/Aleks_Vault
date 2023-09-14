@@ -359,8 +359,17 @@ for i: 1 to length(A)-1
 Insertion sort is similar in time complexity to selection sort and is considered inefficient for large datasets. However, it has some advantages over selection sort, such as being adaptive (meaning it performs well on partially sorted data) and stable (it maintains the relative order of equal elements).
 
 
+## Bubble Sort
+>Algorithmic Steps:
 
-
+1. Start at the beginning of the list.
+2. Compare the first two elements. If they are out of order, swap them.
+3. Move to the next pair of elements and repeat the comparison and swap process until you reach the end of the list.
+4. After one pass through the list, the largest element will "bubble" to the end of the list.
+5. Repeat the above steps for the remaining unsorted portion of the list, excluding the elements already sorted in previous passes.
+6. Continue these passes until no swaps are needed, indicating that the list is fully sorted.
+![[Bubble_sort.gif]]
+> Worst case time complexity of **O(n^2)**
 
 # Cheat Sheets
 

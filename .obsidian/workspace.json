@@ -8,7 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "49bbe5bae17ccaaf",
+            "id": "b8fdd0198dc5ec72",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Algorithms/Images/Bubble_sort.gif"
+              }
+            }
+          },
+          {
+            "id": "9846fd44a52817b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,20 +28,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b8fdd0198dc5ec72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Markdown Cheat Sheet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,23 +178,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "49bbe5bae17ccaaf",
+  "active": "9846fd44a52817b0",
   "lastOpenFiles": [
-    "Algorithms/Data Structures.md",
+    "Bubble_sort_with_flag.gif",
+    "Algorithms/Images/Bubble_sort.gif",
+    "Algorithms/Algorithms.md",
+    "Algorithms/Images/Bubble_sort_with_flag.gif.crdownload",
     "Markdown Cheat Sheet.md",
+    "Algorithms/Pasted image 20230914143237.png.md",
+    "Pasted image 20230914143220.png",
+    "Pasted image 20230914143237.png",
+    "Algorithms/Data Structures.md",
     "Algorithms/Images/Hash Table 3.png",
     "Algorithms/Images/Hash Table 2.png",
     "Algorithms/Images/Hash table.png",
-    "Algorithms/Algorithms.md",
     "Databases/Joins.md",
     "Algorithms/Images/Dominant Factor.png",
     "Algorithms/Images/Data Structure Operations.png",
     "Algorithms/Images",
     "Algorithms/Images/Sorting Algorithms.png",
     "Algorithms/Images/Fibonacci.png",
-    "Algorithms/Images/Mergesort.png",
-    "Pasted image 20230906140049.png",
-    "Algorithms/Images/Doubly Linked List 2.png",
     "Databases/SQL Syntax.md",
     "Databases/SQL Constraints.md",
     "Databases/Normalization.md",
@@ -216,7 +218,6 @@
     "Databases/DML.md",
     "Databases/DDL.md",
     "Databases/Data Integrity.md",
-    "Databases/Views.md",
     "Algorithms",
     "Excalidraw",
     "Databases",
