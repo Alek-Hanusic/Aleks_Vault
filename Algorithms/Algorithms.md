@@ -387,47 +387,58 @@ Insertion sort is similar in time complexity to selection sort and is considered
 >**Time Complexity:** Merge sort guarantees a time complexity of O(n log n), where n is the number of elements in the list.
 
 ```python
-def mergeSort(myList):
-    if len(myList) > 1:
-        mid = len(myList) // 2
-        left = myList[:mid]
-        right = myList[mid:]
-  
-        # Recursive call on each half
-        mergeSort(left)
-        mergeSort(right)
+# Define a function for merge sort that takes an input list of integers.
+def merge_sort(lst):
+    # Get the length of the input list.
+    list_length = len(lst)
+    
+    # Base case: If the list has only one element or is empty, it is already sorted.
+    if list_length == 1:
+        return lst
+    
+    # Calculate the midpoint of the list.
+    mid_point = list_length // 2
+    
+    # Recursively apply merge_sort to the left and right halves of the list.
+    left_half = merge_sort(lst[:mid_point])
+    right_half = merge_sort(lst[mid_point:])
+    
+    # Merge the sorted left and right halves and return the result.
+    return merge(left_half, right_half)
 
-        # Two iterators for traversing the two halves
-        i = 0
-        j = 0
-        # Iterator for the main list
-        k = 0
-        while i < len(left) and j < len(right):
-            if left[i] <= right[j]:
-              # The value from the left half has been used
-              myList[k] = left[i]
-              # Move the iterator forward
-              i += 1
-            else:
-                myList[k] = right[j]
-                j += 1
-            # Move to the next slot
-            k += 1
+# Define a function to merge two sorted lists.
+def merge(left, right):
+    # Initialize an empty list to store the merged result.
+    output = []
+    
+    # Initialize two pointers (i and j) for the left and right lists.
+    i = j = 0
+    
+    # Compare elements from both lists and merge them in sorted order.
+    while (i < len(left) and j < len(right)):
+        if left[i] < right[j]:
+            output.append(left[i])
+            i += 1
+        else:
+            output.append(right[j])
+            j += 1
+    
+    # Append any remaining elements from both lists (if any).
+    output.extend(left[i:])
+    output.extend(right[j:])
+    
+    # Return the merged and sorted list.
+    return output
 
-        # For all the remaining values
-        while i < len(left):
-            myList[k] = left[i]
-            i += 1
-            k += 1
+# Create an unsorted list of integers.
+unsorted_list = [2, 4, 1, 5, 7, 2, 6, 1, 1, 6, 4, 10, 33, 5, 7, 23]
 
-        while j < len(right):
-            myList[k]=right[j]
-            j += 1
-            k += 1
+# Apply merge_sort to the unsorted list to obtain a sorted list.
+sorted_list = merge_sort(unsorted_list)
 
-myList = [54,26,93,17,77,31,44,55,20]
-mergeSort(myList)
-print(myList)
+# Print the original unsorted list and the sorted list.
+print("Original Unsorted List:", unsorted_list)
+print("Sorted List:", sorted_list)
 ```
 
 
