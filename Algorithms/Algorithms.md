@@ -431,7 +431,7 @@ def merge(left, right):
     return output
 
 # Create an unsorted list of integers.
-unsorted_list = [2, 4, 1, 5, 7, 2, 6, 1, 1, 6, 4, 10, 33, 5, 7, 23]
+unsorted_list = [3,7,8,5,4,2,6,1]
 
 # Apply merge_sort to the unsorted list to obtain a sorted list.
 sorted_list = merge_sort(unsorted_list)
