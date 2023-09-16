@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b8fdd0198dc5ec72",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Algorithms/Images/Bubble_sort.gif"
-              }
-            }
-          },
-          {
             "id": "9846fd44a52817b0",
             "type": "leaf",
             "state": {
@@ -30,29 +20,16 @@
             }
           },
           {
-            "id": "ec190687e3199e0d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.13"
-              }
-            }
-          },
-          {
             "id": "c8ffbe817d7163e3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Math/Math Notes.md",
-                "mode": "source",
-                "source": false
+                "file": "Math/Images/Pasted image 20230916153222.png"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Math Notes.md",
+                "file": "Algorithms/Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Math Notes.md",
+                "file": "Algorithms/Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Math Notes.md"
+                "file": "Algorithms/Algorithms.md"
               }
             }
           },
@@ -200,18 +177,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c8ffbe817d7163e3",
+  "active": "9846fd44a52817b0",
   "lastOpenFiles": [
-    "Pasted image 20230916182951.png",
-    "Pasted image 20230916153222.png",
+    "Algorithms/Images/Bubble_sort.gif",
+    "Notes.zip",
+    "Notes.zip.tmp",
+    "Algorithms/Algorithms.md",
+    "Math/Images/Pasted image 20230916153222.png",
+    "Math/Math Notes.md",
+    "Math/Images/Pasted image 20230916182951.png",
     "Math/Images/Pasted image 20230916153152.png",
     "Math/Images",
     "Math/Images/Seq & Series Cheat Sheet.png",
     "Math",
-    "Math/Math Notes.md",
     "Bubble_sort_with_flag.gif",
-    "Algorithms/Images/Bubble_sort.gif",
-    "Algorithms/Algorithms.md",
     "Algorithms/Images/Bubble_sort_with_flag.gif.crdownload",
     "Markdown Cheat Sheet.md",
     "Algorithms/Pasted image 20230914143237.png.md",
@@ -220,7 +199,6 @@
     "Algorithms/Data Structures.md",
     "Algorithms/Images/Hash Table 3.png",
     "Algorithms/Images/Hash Table 2.png",
-    "Algorithms/Images/Hash table.png",
     "Databases/Joins.md",
     "Algorithms/Images",
     "Databases/SQL Syntax.md",
