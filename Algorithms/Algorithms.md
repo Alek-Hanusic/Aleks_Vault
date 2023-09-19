@@ -517,7 +517,83 @@ if __name__ == '__main__':
 
 > Complexity: O(n+k)
 
+## Heap Sort
 
+>First convert the array into heap data structure using heapify, then one by one delete the root node of the Max-heap and replace it with the last node in the heap and then heapify the root of the heap. Repeat this process until size of heap is greater than 1.
+
+- Build a heap from the given input array.
+- Repeat the following steps until the heap contains only one element:
+    - **Swap the root element of the heap** (which is the largest element) with the last element of the heap.
+    - Remove the last element of the heap (which is now in the correct position).
+    - Heapify the remaining elements of the heap.
+- The sorted array is obtained by reversing the order of the elements in the input array.
+
+> Time complexity: O(n log n)
+
+> build-max-heap (construction of tree + max order) takes O(n)
+
+> heapify (sort a partially sorted array, when top element is in correct position)
+
+
+```python
+# Python program for implementation of heap Sort
+ 
+# To heapify subtree rooted at index i.
+# n is size of heap
+ 
+ 
+def heapify(arr, N, i):
+    largest = i  # Initialize largest as root
+    l = 2 * i + 1     # left = 2*i + 1
+    r = 2 * i + 2     # right = 2*i + 2
+ 
+    # See if left child of root exists and is
+    # greater than root
+    if l < N and arr[largest] < arr[l]:
+        largest = l
+ 
+    # See if right child of root exists and is
+    # greater than root
+    if r < N and arr[largest] < arr[r]:
+        largest = r
+ 
+    # Change root, if needed
+    if largest != i:
+        arr[i], arr[largest] = arr[largest], arr[i]  # swap
+ 
+        # Heapify the root.
+        heapify(arr, N, largest)
+ 
+# The main function to sort an array of given size
+ 
+ 
+def heapSort(arr):
+    N = len(arr)
+ 
+    # Build a maxheap.
+    for i in range(N//2 - 1, -1, -1):
+        heapify(arr, N, i)
+ 
+    # One by one extract elements
+    for i in range(N-1, 0, -1):
+        arr[i], arr[0] = arr[0], arr[i]  # swap
+        heapify(arr, i, 0)
+ 
+ 
+# Driver's code
+if __name__ == '__main__':
+    arr = [12, 11, 13, 5, 6, 7]
+ 
+    # Function call
+    heapSort(arr)
+    N = len(arr)
+ 
+    print("Sorted array is")
+    for i in range(N):
+        print("%d" % arr[i], end=" ")
+```
+# Stable vs Unstable Sorts
+>A sorting algorithm is said to be **stable** if it maintains the relative order of numbers/records in the case of tie i.e. if you need to sort 1 1 2 3 then if you don't change the order of those first two ones then your algorithm is stable, but if you swap them then it becomes unstable, despite the overall result or sorting order remain same.
 # Cheat Sheets
 ![[Pasted image 20230918194059.png]]
 
