@@ -47,7 +47,7 @@ def my_function(data):
             print(x, y)
 ```
 
->Even that the operations in ‘my_function’ don’t make sense we can see that it has multiple time complexities: **O(1) + O(n) + O(n²)**. So, when increasing the size of the input data, the **bottleneck** of this algorithm will be the operation that takes **O(n²)**. Based on this, we can describe the time complexity of this algorithm as **O(n²)**.
+>Even if the operations in ‘my_function’ don’t make sense we can see that it has multiple time complexities: **O(1) + O(n) + O(n²)**. So, when increasing the size of the input data, the **bottleneck** of this algorithm will be the operation that takes **O(n²)**. Based on this, we can describe the time complexity of this algorithm as **O(n²)**.
 
 ## "Better" Algorithms
 >An algorithm A1 is considered to be asymptotically more efficient than A2 if A1's ***worst-case*** running time has a lower order of growth than A2's.
@@ -341,7 +341,7 @@ It involves two nested loops. The outer loop runs n times (for n elements), and 
 
 ## Insertion Sort
 
-```pseudocode
+```python
 for i: 1 to length(A)-1
 	j = i
 	while j>0 and A[j-1]>A[j]
