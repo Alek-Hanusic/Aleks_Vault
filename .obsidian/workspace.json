@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Data Structures.md",
+                "file": "Math/Math Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Data Structures.md",
+                "file": "Math/Math Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Data Structures.md",
+                "file": "Math/Math Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Data Structures.md"
+                "file": "Math/Math Notes.md"
               }
             }
           },
@@ -179,6 +179,9 @@
   },
   "active": "9846fd44a52817b0",
   "lastOpenFiles": [
+    "Databases/Entity Integrity.md",
+    "Databases/Data Integrity.md",
+    "Algorithms/Data Structures.md",
     "Algorithms/Algorithms.md",
     "Pasted image 20230918194059.png",
     "1_l1dZgMgvt0d578JhTy307A.gif",
@@ -198,7 +201,6 @@
     "Markdown Cheat Sheet.md",
     "Algorithms/Pasted image 20230914143237.png.md",
     "Pasted image 20230914143220.png",
-    "Algorithms/Data Structures.md",
     "Databases/Joins.md",
     "Algorithms/Images",
     "Databases/SQL Syntax.md",
@@ -216,7 +218,6 @@
     "Databases/Domain Integrity.md",
     "Databases/Database Design.md",
     "Databases/Attributes.md",
-    "Databases/Entity Integrity.md",
     "Databases/Entities.md",
     "Databases/DML.md",
     "Databases/DDL.md",
