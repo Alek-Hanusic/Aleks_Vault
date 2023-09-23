@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Algorithms.md",
+                "file": "Algorithms/Data Structures.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Algorithms.md",
+                "file": "Algorithms/Data Structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Algorithms.md",
+                "file": "Algorithms/Data Structures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Algorithms.md"
+                "file": "Algorithms/Data Structures.md"
               }
             }
           },
@@ -177,13 +177,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cd47c6f161828cc3",
+  "active": "9846fd44a52817b0",
   "lastOpenFiles": [
+    "Algorithms/Algorithms.md",
     "Pasted image 20230918194059.png",
     "1_l1dZgMgvt0d578JhTy307A.gif",
     "Pasted image 20230918173144.png",
     "Math/Math Notes.md",
-    "Algorithms/Algorithms.md",
     "Algorithms/Images/Bubble_sort.gif",
     "Notes.zip",
     "Notes.zip.tmp",
@@ -198,7 +198,6 @@
     "Markdown Cheat Sheet.md",
     "Algorithms/Pasted image 20230914143237.png.md",
     "Pasted image 20230914143220.png",
-    "Pasted image 20230914143237.png",
     "Algorithms/Data Structures.md",
     "Databases/Joins.md",
     "Algorithms/Images",
