@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Atomic Value.md",
+                "file": "Databases/Normalization.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Atomic Value.md",
+                "file": "Databases/Normalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Atomic Value.md",
+                "file": "Databases/Normalization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Atomic Value.md"
+                "file": "Databases/Normalization.md"
               }
             }
           },
@@ -179,14 +179,30 @@
   },
   "active": "9846fd44a52817b0",
   "lastOpenFiles": [
+    "Databases/Relationships.md",
+    "Databases/SQL.md",
+    "Databases/SQL Constraints.md",
+    "Databases/Views.md",
+    "Databases/Relational Database.md",
+    "Databases/Referential Integrity.md",
+    "Databases/RDBMS.md",
+    "Databases/Query.md",
+    "Databases/Normalization.md",
+    "Databases/Keys.md",
+    "Databases/Joins.md",
+    "Databases/Indexes.md",
+    "Databases/Entity Integrity.md",
+    "Databases/Entities.md",
+    "Databases/Domain Integrity.md",
+    "Databases/DML.md",
+    "Databases/DDL.md",
     "Databases/Database Design.md",
     "Databases/Data Integrity.md",
-    "Databases/Entity Integrity.md",
+    "Databases/Atomic Value.md",
     "Databases/Composite Keys.png",
     "Databases/Cardinality vs Modality.md",
     "Databases/Cardinality Ex.png",
     "Databases/Attributes.md",
-    "Databases/Atomic Value.md",
     "Math/Math Notes.md",
     "Algorithms/Data Structures.md",
     "Algorithms/Algorithms.md",
@@ -204,22 +220,7 @@
     "Math",
     "Algorithms/Images/Bubble_sort_with_flag.gif.crdownload",
     "Markdown Cheat Sheet.md",
-    "Algorithms/Pasted image 20230914143237.png.md",
-    "Databases/Joins.md",
     "Algorithms/Images",
-    "Databases/SQL Syntax.md",
-    "Databases/SQL Constraints.md",
-    "Databases/Normalization.md",
-    "Databases/Indexes.md",
-    "Databases/Keys.md",
-    "Databases/Cardinality.md",
-    "Excalidraw/Drawing 2023-08-21 23.22.25.excalidraw.md",
-    "Excalidraw/Drawing 2023-08-20 23.08.51.excalidraw.md",
-    "Databases/SQL.md",
-    "Excalidraw/Drawing 2023-08-20 21.00.50.excalidraw.md",
-    "Databases/Domain Integrity.md",
-    "Databases/Entities.md",
-    "Databases/DML.md",
     "Algorithms",
     "Excalidraw",
     "Databases",
