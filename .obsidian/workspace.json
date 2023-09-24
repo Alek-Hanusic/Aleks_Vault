@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Math Notes.md",
+                "file": "Databases/Cardinality vs Modality.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Math Notes.md",
+                "file": "Databases/Cardinality vs Modality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Math Notes.md",
+                "file": "Databases/Cardinality vs Modality.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Math Notes.md"
+                "file": "Databases/Cardinality vs Modality.md"
               }
             }
           },
@@ -179,6 +179,10 @@
   },
   "active": "9846fd44a52817b0",
   "lastOpenFiles": [
+    "Databases/Cardinality Ex.png",
+    "Databases/Attributes.md",
+    "Databases/Atomic Value.md",
+    "Math/Math Notes.md",
     "Databases/Entity Integrity.md",
     "Databases/Data Integrity.md",
     "Algorithms/Data Structures.md",
@@ -186,7 +190,6 @@
     "Pasted image 20230918194059.png",
     "1_l1dZgMgvt0d578JhTy307A.gif",
     "Pasted image 20230918173144.png",
-    "Math/Math Notes.md",
     "Algorithms/Images/Bubble_sort.gif",
     "Notes.zip",
     "Notes.zip.tmp",
@@ -213,14 +216,11 @@
     "Excalidraw/Drawing 2023-08-21 23.22.25.excalidraw.md",
     "Excalidraw/Drawing 2023-08-20 23.08.51.excalidraw.md",
     "Databases/SQL.md",
-    "Databases/Atomic Value.md",
     "Excalidraw/Drawing 2023-08-20 21.00.50.excalidraw.md",
     "Databases/Domain Integrity.md",
     "Databases/Database Design.md",
-    "Databases/Attributes.md",
     "Databases/Entities.md",
     "Databases/DML.md",
-    "Databases/DDL.md",
     "Algorithms",
     "Excalidraw",
     "Databases",
