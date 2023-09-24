@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database Design.md",
+                "file": "Databases/Atomic Value.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database Design.md",
+                "file": "Databases/Atomic Value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database Design.md",
+                "file": "Databases/Atomic Value.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database Design.md"
+                "file": "Databases/Atomic Value.md"
               }
             }
           },
@@ -179,6 +179,7 @@
   },
   "active": "9846fd44a52817b0",
   "lastOpenFiles": [
+    "Databases/Database Design.md",
     "Databases/Data Integrity.md",
     "Databases/Entity Integrity.md",
     "Databases/Composite Keys.png",
@@ -217,7 +218,6 @@
     "Databases/SQL.md",
     "Excalidraw/Drawing 2023-08-20 21.00.50.excalidraw.md",
     "Databases/Domain Integrity.md",
-    "Databases/Database Design.md",
     "Databases/Entities.md",
     "Databases/DML.md",
     "Algorithms",
