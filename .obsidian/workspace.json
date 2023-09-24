@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Cardinality vs Modality.md",
+                "file": "Databases/Database Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Cardinality vs Modality.md",
+                "file": "Databases/Database Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Cardinality vs Modality.md",
+                "file": "Databases/Database Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Cardinality vs Modality.md"
+                "file": "Databases/Database Design.md"
               }
             }
           },
@@ -179,12 +179,14 @@
   },
   "active": "9846fd44a52817b0",
   "lastOpenFiles": [
+    "Databases/Data Integrity.md",
+    "Databases/Entity Integrity.md",
+    "Databases/Composite Keys.png",
+    "Databases/Cardinality vs Modality.md",
     "Databases/Cardinality Ex.png",
     "Databases/Attributes.md",
     "Databases/Atomic Value.md",
     "Math/Math Notes.md",
-    "Databases/Entity Integrity.md",
-    "Databases/Data Integrity.md",
     "Algorithms/Data Structures.md",
     "Algorithms/Algorithms.md",
     "Pasted image 20230918194059.png",
@@ -199,11 +201,9 @@
     "Math/Images",
     "Math/Images/Seq & Series Cheat Sheet.png",
     "Math",
-    "Bubble_sort_with_flag.gif",
     "Algorithms/Images/Bubble_sort_with_flag.gif.crdownload",
     "Markdown Cheat Sheet.md",
     "Algorithms/Pasted image 20230914143237.png.md",
-    "Pasted image 20230914143220.png",
     "Databases/Joins.md",
     "Algorithms/Images",
     "Databases/SQL Syntax.md",
@@ -211,7 +211,6 @@
     "Databases/Normalization.md",
     "Databases/Indexes.md",
     "Databases/Keys.md",
-    "Databases/Cardinality vs Modality.md",
     "Databases/Cardinality.md",
     "Excalidraw/Drawing 2023-08-21 23.22.25.excalidraw.md",
     "Excalidraw/Drawing 2023-08-20 23.08.51.excalidraw.md",
