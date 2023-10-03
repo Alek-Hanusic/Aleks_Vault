@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d78e43a487452be0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS and Law/Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Statistics/Notes.md",
+                "file": "CS and Law/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Statistics/Notes.md",
+                "file": "CS and Law/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Statistics/Notes.md"
+                "file": "CS and Law/Notes.md"
               }
             }
           },
@@ -167,8 +180,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6acdb08633c0f547",
+  "active": "d78e43a487452be0",
   "lastOpenFiles": [
+    "CS and Law/Notes.md",
+    "CS and Law",
     "Advanced Statistics/Images/Pasted image 20231002112614.png",
     "Advanced Statistics/Notes.md",
     "Advanced Statistics/Images",
@@ -184,7 +199,6 @@
     "Algorithms/Algorithms.md",
     "Databases/Untitled 1.md",
     "Databases/Untitled.md",
-    "Untitled",
     "Advanced Statistics",
     "Databases/Normalization.md",
     "Databases/SQL.md",
