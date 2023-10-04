@@ -21,7 +21,7 @@
     },
     "iconInTabsEnabled": false
   },
-  "Databases": "RiLayout6Line",
-  "Algorithms": "RiClockwise2Line",
-  "Databases/SQL Syntax.md": "RiArticleLine"
+  "Sem 2/Algorithms": "RiClockwise2Line",
+  "Sem 2/Databases": "RiLayout6Line",
+  "Sem 2/Databases/SQL Syntax.md": "RiArticleLine"
 }

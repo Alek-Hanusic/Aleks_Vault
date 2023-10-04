@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dccd78a8b88c4d79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms 2/Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS and Law/Notes.md",
+                "file": "Algorithms 2/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS and Law/Notes.md",
+                "file": "Algorithms 2/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS and Law/Notes.md"
+                "file": "Algorithms 2/Notes.md"
               }
             }
           },
@@ -180,54 +192,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d78e43a487452be0",
+  "active": "dccd78a8b88c4d79",
   "lastOpenFiles": [
+    "Algorithms 2/Lecture.01/3.IntroAndRecap.pdf",
+    "Algorithms 2/Lecture.01/2.Assignments.pdf",
+    "Algorithms 2/Lecture.01/1.Organization.pdf",
+    "Algorithms 2/Lecture.01",
+    "Sem 2",
+    "Algorithms 2",
     "CS and Law/Notes.md",
+    "Algorithms 2/Notes.md",
     "CS and Law",
     "Advanced Statistics/Images/Pasted image 20231002112614.png",
     "Advanced Statistics/Notes.md",
     "Advanced Statistics/Images",
-    "Algorithms/Images/1_l1dZgMgvt0d578JhTy307A.gif",
-    "Algorithms/Images/Pasted image 20230918173144.png",
-    "Algorithms/Images/Pasted image 20230918194059.png",
-    "Databases/Relationships.md",
-    "Databases/Entities.md",
-    "Databases/Attributes.md",
-    "Databases/Atomic Value.md",
-    "Databases/Cardinality Ex.png",
-    "Databases/Composite Keys.png",
-    "Algorithms/Algorithms.md",
-    "Databases/Untitled 1.md",
-    "Databases/Untitled.md",
+    "Sem 2/Algorithms/Images/1_l1dZgMgvt0d578JhTy307A.gif",
+    "Sem 2/Algorithms/Images/Pasted image 20230918173144.png",
+    "Sem 2/Algorithms/Images/Pasted image 20230918194059.png",
+    "Sem 2/Databases/Relationships.md",
+    "Sem 2/Databases/Entities.md",
+    "Sem 2/Databases/Attributes.md",
+    "Sem 2/Databases/Atomic Value.md",
+    "Sem 2/Databases/Cardinality Ex.png",
+    "Sem 2/Databases/Composite Keys.png",
+    "Sem 2/Algorithms/Algorithms.md",
+    "Sem 2/Databases/Untitled 1.md",
+    "Sem 2/Databases/Untitled.md",
     "Advanced Statistics",
-    "Databases/Normalization.md",
-    "Databases/SQL.md",
-    "Databases/SQL Constraints.md",
-    "Databases/Views.md",
-    "Databases/Relational Database.md",
-    "Databases/Referential Integrity.md",
-    "Databases/RDBMS.md",
-    "Databases/Query.md",
-    "Databases/Keys.md",
-    "Databases/Joins.md",
-    "Databases/Indexes.md",
-    "Databases/Entity Integrity.md",
-    "Databases/Domain Integrity.md",
-    "Databases/DML.md",
-    "Databases/DDL.md",
-    "Databases/Database Design.md",
-    "Databases/Data Integrity.md",
-    "Algorithms/Images/Bubble_sort.gif",
+    "Sem 2/Databases/Normalization.md",
+    "Sem 2/Databases/SQL.md",
+    "Sem 2/Databases/SQL Constraints.md",
+    "Sem 2/Databases/Views.md",
+    "Sem 2/Databases/Relational Database.md",
+    "Sem 2/Databases/Referential Integrity.md",
+    "Sem 2/Databases/RDBMS.md",
+    "Sem 2/Databases/Query.md",
+    "Sem 2/Databases/Keys.md",
+    "Sem 2/Databases/Joins.md",
+    "Sem 2/Databases/Indexes.md",
+    "Sem 2/Databases/Entity Integrity.md",
+    "Sem 2/Databases/Domain Integrity.md",
+    "Sem 2/Databases/DML.md",
+    "Sem 2/Databases/DDL.md",
+    "Sem 2/Algorithms/Images/Bubble_sort.gif",
     "Notes.zip",
     "Notes.zip.tmp",
     "Math/Images/Pasted image 20230916153222.png",
     "Math/Images/Pasted image 20230916182951.png",
     "Math/Images/Pasted image 20230916153152.png",
-    "Math/Images",
-    "Math",
-    "Algorithms/Images/Bubble_sort_with_flag.gif.crdownload",
-    "Algorithms/Images",
-    "Algorithms",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
