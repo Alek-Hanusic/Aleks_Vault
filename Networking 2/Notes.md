@@ -8,4 +8,12 @@
 
 > Checksum
 
+
 ![[Pasted image 20231004145147.png]]
+
+>Cyclic Redundancy Check
+
+`M(x)/ C(x) = Q(X)`
+
+M(x) = C(x) + Q(x) + R(x)
+
