@@ -18,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d78e43a487452be0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS and Law/Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dccd78a8b88c4d79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms 2/Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms 2/Notes.md",
+                "file": "Advanced Statistics/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms 2/Notes.md",
+                "file": "Advanced Statistics/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms 2/Notes.md"
+                "file": "Advanced Statistics/Notes.md"
               }
             }
           },
@@ -192,16 +167,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dccd78a8b88c4d79",
+  "active": "6acdb08633c0f547",
   "lastOpenFiles": [
+    "CS and Law/Notes.md",
+    "os3ilv-w23-24-assignment-Alek-Hanusic/README.md",
+    "Algorithms 2/Notes.md",
     "Algorithms 2/Lecture.01/3.IntroAndRecap.pdf",
     "Algorithms 2/Lecture.01/2.Assignments.pdf",
     "Algorithms 2/Lecture.01/1.Organization.pdf",
     "Algorithms 2/Lecture.01",
     "Sem 2",
     "Algorithms 2",
-    "CS and Law/Notes.md",
-    "Algorithms 2/Notes.md",
     "CS and Law",
     "Advanced Statistics/Images/Pasted image 20231002112614.png",
     "Advanced Statistics/Notes.md",
@@ -236,7 +212,6 @@
     "Sem 2/Databases/DDL.md",
     "Sem 2/Algorithms/Images/Bubble_sort.gif",
     "Notes.zip",
-    "Notes.zip.tmp",
     "Math/Images/Pasted image 20230916153222.png",
     "Math/Images/Pasted image 20230916182951.png",
     "Math/Images/Pasted image 20230916153152.png",
