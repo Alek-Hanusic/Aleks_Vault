@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "715047656a6da172",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking 2/Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Statistics/Notes.md",
+                "file": "Networking 2/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Statistics/Notes.md",
+                "file": "Networking 2/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Statistics/Notes.md"
+                "file": "Networking 2/Notes.md"
               }
             }
           },
@@ -167,8 +180,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6acdb08633c0f547",
+  "active": "cd47c6f161828cc3",
   "lastOpenFiles": [
+    "Networking 2/Images",
+    "Networking 2/Images/Pasted image 20231004142942.png",
+    "Advanced Statistics/Notes.md",
+    "Networking 2/Notes.md",
+    "Networking 2",
     "CS and Law/Notes.md",
     "os3ilv-w23-24-assignment-Alek-Hanusic/README.md",
     "Algorithms 2/Notes.md",
@@ -180,7 +198,6 @@
     "Algorithms 2",
     "CS and Law",
     "Advanced Statistics/Images/Pasted image 20231002112614.png",
-    "Advanced Statistics/Notes.md",
     "Advanced Statistics/Images",
     "Sem 2/Algorithms/Images/1_l1dZgMgvt0d578JhTy307A.gif",
     "Sem 2/Algorithms/Images/Pasted image 20230918173144.png",
@@ -208,13 +225,9 @@
     "Sem 2/Databases/Indexes.md",
     "Sem 2/Databases/Entity Integrity.md",
     "Sem 2/Databases/Domain Integrity.md",
-    "Sem 2/Databases/DML.md",
-    "Sem 2/Databases/DDL.md",
     "Sem 2/Algorithms/Images/Bubble_sort.gif",
-    "Notes.zip",
     "Math/Images/Pasted image 20230916153222.png",
     "Math/Images/Pasted image 20230916182951.png",
-    "Math/Images/Pasted image 20230916153152.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
