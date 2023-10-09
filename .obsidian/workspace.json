@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking 2/Notes.md",
+                "file": "Project Management/Understanding.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking 2/Notes.md",
+                "file": "Project Management/Understanding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking 2/Notes.md",
+                "file": "Project Management/Understanding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking 2/Notes.md"
+                "file": "Project Management/Understanding.md"
               }
             }
           },
@@ -180,12 +180,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cd47c6f161828cc3",
+  "active": "715047656a6da172",
   "lastOpenFiles": [
+    "Advanced Statistics/Notes.md",
+    "Project Management/Understanding.md",
+    "Project Management",
     "Networking 2/Images/Pasted image 20231004145147.png",
     "Networking 2/Images",
     "Networking 2/Images/Pasted image 20231004142942.png",
-    "Advanced Statistics/Notes.md",
     "Networking 2/Notes.md",
     "Networking 2",
     "CS and Law/Notes.md",
@@ -199,7 +201,6 @@
     "Algorithms 2",
     "CS and Law",
     "Advanced Statistics/Images/Pasted image 20231002112614.png",
-    "Advanced Statistics/Images",
     "Sem 2/Algorithms/Images/1_l1dZgMgvt0d578JhTy307A.gif",
     "Sem 2/Algorithms/Images/Pasted image 20230918173144.png",
     "Sem 2/Algorithms/Images/Pasted image 20230918194059.png",
@@ -227,7 +228,6 @@
     "Sem 2/Databases/Domain Integrity.md",
     "Sem 2/Algorithms/Images/Bubble_sort.gif",
     "Math/Images/Pasted image 20230916153222.png",
-    "Math/Images/Pasted image 20230916182951.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
