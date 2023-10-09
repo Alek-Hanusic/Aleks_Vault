@@ -17,3 +17,5 @@
 
 M(x) = C(x) + Q(x) + R(x)
 
+
+## Reliable Transmission
