@@ -19,3 +19,12 @@ M(x) = C(x) + Q(x) + R(x)
 
 
 ## Reliable Transmission
+
+> Stop and wait
+
+- Sender waits until it receives the corresponding acknowledgement from receiver
+- 4 possible scenarios (see slides)
+
+> Sliding window
+
+- improves data link usage by allowing transmition of more frames, even if not all frames were acknowledged 
