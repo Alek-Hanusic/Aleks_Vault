@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking 2/Notes.md",
+                "file": "Math/Exercises 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking 2/Notes.md",
+                "file": "Math/Exercises 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking 2/Notes.md",
+                "file": "Math/Exercises 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking 2/Notes.md"
+                "file": "Math/Exercises 1.md"
               }
             }
           },
@@ -182,13 +182,15 @@
   },
   "active": "715047656a6da172",
   "lastOpenFiles": [
+    "Math/Math Notes.md",
+    "Math/Exercises 1.md",
+    "Networking 2/Notes.md",
     "Project Management/Understanding.md",
     "Advanced Statistics/Notes.md",
     "Project Management",
     "Networking 2/Images/Pasted image 20231004145147.png",
     "Networking 2/Images",
     "Networking 2/Images/Pasted image 20231004142942.png",
-    "Networking 2/Notes.md",
     "Networking 2",
     "CS and Law/Notes.md",
     "os3ilv-w23-24-assignment-Alek-Hanusic/README.md",
@@ -224,8 +226,6 @@
     "Sem 2/Databases/Keys.md",
     "Sem 2/Databases/Joins.md",
     "Sem 2/Databases/Indexes.md",
-    "Sem 2/Databases/Entity Integrity.md",
-    "Sem 2/Databases/Domain Integrity.md",
     "Sem 2/Algorithms/Images/Bubble_sort.gif",
     "Math/Images/Pasted image 20230916153222.png",
     "Untitled 1.canvas",
