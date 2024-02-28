@@ -1,19 +1,24 @@
+>Alek Hanušić
 ## Exercise 1.1
 ```r
 is_arithmetic <- function(seq) {
-  if(length(seq) < 2) {
+  if(length(seq)< 2) {
     return(FALSE)
   }
-  diff <- seq[2] - seq[1]
+  diff <-seq[2] -seq[1]
   
   for(i in 2:length(seq)) {
-    if(seq[i] - seq[i-1] != diff) {
+    if(seq[i]-seq[i-1] !=diff) {
       return(FALSE)
     }
   }
   
   return(TRUE)
 }
+#TEST
+
+x=c(1,2,3,4,5,6)
+is_arithmetic(x)
 ```
 
 
@@ -27,6 +32,10 @@ is_geo_seq <- function(seq) {
   }
   return(TRUE)
 }
+#TEST
+
+x=c(1,2,4,8,16,32,64)
+is_geo_seq(x)
 ```
 
 ## Exercise 1.3
@@ -68,3 +77,4 @@ n = c(1,2,3,4,5,6,7,8,9,10,11,12,13,14)
 lol = 1/(n*(n+1))
 plot(lol)
 ```
+
