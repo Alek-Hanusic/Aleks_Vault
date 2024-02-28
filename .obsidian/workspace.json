@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Exercises 1.md",
+                "file": "Sem 2/Logic/Exercise Sheet 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "80b0dca6c9cfa2c4",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Exercises 1.md",
+                "file": "Sem 2/Logic/Exercise Sheet 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Exercises 1.md",
+                "file": "Sem 2/Logic/Exercise Sheet 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Exercises 1.md"
+                "file": "Sem 2/Logic/Exercise Sheet 1.md"
               }
             }
           },
@@ -196,8 +197,10 @@
   },
   "active": "f8944174f39e297d",
   "lastOpenFiles": [
-    "Math/Math Notes.md",
     "Math/Exercises 1.md",
+    "Sem 2/Logic/Exercise Sheet 1.md",
+    "Sem 2/Logic",
+    "Math/Math Notes.md",
     "Networking 2/Notes.md",
     "Project Management/Understanding.md",
     "Advanced Statistics/Notes.md",
@@ -215,7 +218,6 @@
     "Algorithms 2/Lecture.01",
     "Sem 2",
     "Algorithms 2",
-    "CS and Law",
     "Advanced Statistics/Images/Pasted image 20231002112614.png",
     "Sem 2/Algorithms/Images/1_l1dZgMgvt0d578JhTy307A.gif",
     "Sem 2/Algorithms/Images/Pasted image 20230918173144.png",
@@ -239,7 +241,6 @@
     "Sem 2/Databases/Query.md",
     "Sem 2/Databases/Keys.md",
     "Sem 2/Databases/Joins.md",
-    "Sem 2/Databases/Indexes.md",
     "Sem 2/Algorithms/Images/Bubble_sort.gif",
     "Math/Images/Pasted image 20230916153222.png",
     "Untitled 1.canvas",
