@@ -7,29 +7,52 @@ March 3, 23:59.
 Symbolize the following statements by formulas in propositional logic. Provide
 a definition in natural language for each propositional symbol you use.
 
-```
-a) Wolfram likes a dish if and only if it is vegetarian and does not contain
+
+>a) Wolfram likes a dish if and only if it is vegetarian and does not contain
 celery.
 ```
+L: likes a dish
+V: vegetarian dish
+C: dish with celery
 
-```
-b) Two sets are the same if and only if they have the same members.
-```
-
-```
-c) If you do not eat up, it will rain tomorrow.
+L ⇔ (V ∧ ¬C)
 ```
 
-```
-d) Cancer will not be cured unless its cause is determined and a new drug
-for cancer is found.^1
-```
+>b) Two sets are the same if and only if they have the same members.
 
 ```
-e) It requires knowing the right people to get this job.
+SS: Same sets
+SM: Same members
+
+SS ⇔ SM
 ```
+
+>c) If you do not eat up, it will rain tomorrow.
+
+```
+Rain: It will rain tomorrow
+Eat: the person eats up
+
+¬Eat ⇒ Rain
+```
+
+>d) Cancer will not be cured unless its cause is determined and a new drug
+for cancer is found.
+
+```
+Cured: cancer cured
+Cause: cancer cause determined
+Drug: cancer drug found
+
+¬(Cause ∧ Drug) ⇒ ¬Cured
+```
+
+>e) It requires knowing the right people to get this job.
+
+
+
 ## Exercise 1.2 (Score: 5)
-
+```
 Let
 A ≜ They have an accident,
 S ≜ They are sick,
