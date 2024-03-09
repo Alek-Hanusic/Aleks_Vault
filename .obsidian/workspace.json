@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Exercises 1.md",
+                "file": "Sem 2/Logic/Exercise Sheet 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "80b0dca6c9cfa2c4",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 1.md",
+                "file": "Sem 2/Logic/Exercise Sheet 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 1.md",
+                "file": "Sem 2/Logic/Exercise Sheet 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 1.md"
+                "file": "Sem 2/Logic/Exercise Sheet 2.md"
               }
             }
           },
@@ -195,15 +194,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f8944174f39e297d",
+  "active": "715047656a6da172",
   "lastOpenFiles": [
-    "Math/Exercises 1.md",
     "Sem 2/Logic/Exercise Sheet 1.md",
+    "Sem 2/Logic/Exercise Sheet 2.md",
+    "Math/Exercises 1.md",
+    "Advanced Statistics/Notes.md",
     "Sem 2/Logic",
     "Math/Math Notes.md",
     "Networking 2/Notes.md",
     "Project Management/Understanding.md",
-    "Advanced Statistics/Notes.md",
     "Project Management",
     "Networking 2/Images/Pasted image 20231004145147.png",
     "Networking 2/Images",
@@ -240,7 +240,6 @@
     "Sem 2/Databases/RDBMS.md",
     "Sem 2/Databases/Query.md",
     "Sem 2/Databases/Keys.md",
-    "Sem 2/Databases/Joins.md",
     "Sem 2/Algorithms/Images/Bubble_sort.gif",
     "Math/Images/Pasted image 20230916153222.png",
     "Untitled 1.canvas",
