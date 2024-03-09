@@ -2,9 +2,12 @@
 Submit your solutions as a single PDF document to the Teams assignment by
 March 3, 23:59.
 
+
+> Alek Hanušić
+
 ## Exercise 1.1 (Score: 5)
 
-Symbolize the following statements by formulas in propositional logic. Provide
+>Symbolize the following statements by formulas in propositional logic. Provide
 a definition in natural language for each propositional symbol you use.
 
 
@@ -81,11 +84,11 @@ They need (both?) a doctor and a lawyer if and only if they are sick and injured
 ```
 If they need a doctor and a lawyer, then they have an accident
 ```
-d) D⇒(S∨I)
+>d) D⇒(S∨I)
 ```
 If they need a doctor, then they are sick or injured
 ```
-e) (S⇒D)∧(A⇒L)
+>e) (S⇒D)∧(A⇒L)
 ```
 If they are sick then they need a doctor, and if they had an accident, then they need a lawyer
 ```
@@ -115,9 +118,27 @@ comprehensibility.
 Page 1 of 1
 
 # (α∧β)≡(β∧α)
+| α     | β     | α∧β   | β∧α  |
+|-------|-------|-------|------|
+| true  | true  | true  | true |
+| true  | false | false | false|
+| false | true  | false | false|
+| false | false | false | false|
 
 # (α ⇒ β) ≡ (¬β ⇒ ¬α)
+| α     | β     | ¬α    | ¬β    | α ⇒ β | ¬β ⇒ ¬α |
+|-------|-------|-------|-------|-------|----------|
+| true  | true  | false | false | true  | true     |
+| true  | false | false | true  | false | false    |
+| false | true  | true  | false | true  | true     |
+| false | false | true  | true  | true  | true     |
 
-# 3 
+# ¬(α∧β) ≡ (¬α∨¬β)
 
-
+| α     | β     | ¬α    | ¬β    | (α∧β) | ¬(α∧β) | (¬α∨¬β) |
+|-------|-------|-------|-------|-------|--------|---------|
+| true  | true  | false | false | true  | false  | false   |
+| true  | false | false | true  | false | true   | true    |
+| false | true  | true  | false | false | true   | true    |
+| false | false | true  | true  | false | true   | true    |
+> Alek Hanušić
