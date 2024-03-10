@@ -10,6 +10,7 @@ c) that the unicorn is mythical?
 •If the unicorn is either immortal or a mammal, then it is horned.
 •The unicorn is magical if it is horned.
 
+> 
 
 ## Exercise 2.2
 ![[Pasted image 20240309191015.png]]
