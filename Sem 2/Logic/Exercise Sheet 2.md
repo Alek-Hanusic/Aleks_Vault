@@ -24,7 +24,8 @@ R1: Mythical ⇒ ¬Mortal.
 >R3: (¬Mortal ∨ Mammal) ⇒ Horned. 
 >R4: Horned ⇒ Magical.
 ```
-- We must "Translate" R6 to Conj. Normal Form ():
+### a)
+- We must "Translate" R6 to Conj. Normal Form:
 ```
 ***Implication elimination: (*remove if-then)
 
@@ -36,11 +37,14 @@ R6: Mythical ∨ (Mortal ∧ Mammal).
 *** Distrubitivity law (distributing ∨ over ∧ wher possible):
 
 R7: (Mythical ∨ Mortal) ∧ (Mythical ∨ Mammal).
-• Resolution:
-R8: ¬Mortal ∨ Mammal.
-• R8 modus ponens R3:
-R9: Horned.
 ```
 
+```
+***Resolution:
+R8: ¬Mortal ∨ Mammal.
+Modus ponens R3:
+R9: Horned.
+```
+### b)
 ## Exercise 2.2
 ![[Pasted image 20240309191015.png]]
