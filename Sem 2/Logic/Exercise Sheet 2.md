@@ -12,3 +12,4 @@ c) that the unicorn is mythical?
 
 
 ## Exercise 2.2
+![[Pasted image 20240309191015.png]]
