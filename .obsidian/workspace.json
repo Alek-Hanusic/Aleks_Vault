@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Statistics/Notes.md",
+                "file": "Sem 2/Databases/Views.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,26 +25,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 2.md",
+                "file": "Sem 2/Databases/Atomic Value.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "13d06d7ce9cfeb3f",
+        "type": "tabs",
+        "children": [
           {
             "id": "f8944174f39e297d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 1.md",
+                "file": "Sem 2/Databases/Databases Whole Course.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 2.md",
+                "file": "Sem 2/Databases/Databases Whole Course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 2.md",
+                "file": "Sem 2/Databases/Databases Whole Course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 2.md"
+                "file": "Sem 2/Databases/Databases Whole Course.md"
               }
             }
           },
@@ -194,26 +199,47 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "715047656a6da172",
+  "active": "cd47c6f161828cc3",
   "lastOpenFiles": [
+    "Sem 2/Databases.zip",
+    "Sem 2/Databases/Untitled 1.md",
+    "Sem 2/Databases/Untitled.md",
+    "Sem 2/Databases/Databases Whole Course.md",
+    "Sem 2/Databases/Views.md",
+    "Sem 2/Databases/SQL Syntax.md",
     "Sem 2/Logic/Exercise Sheet 1.md",
-    "Sem 2/Logic/Exercise Sheet 2.md",
+    "Sem 2/Databases/SQL Constraints.md",
+    "Sem 2/Databases/SQL.md",
+    "Sem 2/Databases/DDL.md",
+    "Sem 2/Databases/Relationships.md",
+    "Sem 2/Databases/Relational Database.md",
+    "Sem 2/Databases/Referential Integrity.md",
+    "Sem 2/Databases/RDBMS.md",
+    "Sem 2/Databases/Query.md",
+    "Sem 2/Databases/Normalization.md",
+    "Sem 2/Databases/Keys.md",
+    "Sem 2/Databases/Joins.md",
+    "Sem 2/Databases/Indexes.md",
+    "Sem 2/Databases/Entity Integrity.md",
+    "Sem 2/Databases/Entities.md",
+    "Sem 2/Databases/Domain Integrity.md",
+    "Sem 2/Databases/DML.md",
+    "Sem 2/Databases/Cardinality vs Modality.md",
+    "Sem 2/Databases/Attributes.md",
     "Advanced Statistics/Notes.md",
+    "Sem 2/Databases/ON UPDATE CASCADE.png",
+    "Sem 2/Databases/ON DELETE CASCADE.png",
+    "Sem 2/Databases/Composite Keys.png",
+    "Sem 2/Databases/Cardinality Ex.png",
+    "Sem 2/Databases/Transitive Dependency.png",
     "Sem 2/Logic/Images",
     "Sem 2/Logic/Images/Pasted image 20240309191015.png",
-    "Math/Exercises 1.md",
     "Sem 2/Logic",
-    "Math/Math Notes.md",
-    "Networking 2/Notes.md",
-    "Project Management/Understanding.md",
     "Project Management",
     "Networking 2/Images/Pasted image 20231004145147.png",
     "Networking 2/Images",
     "Networking 2/Images/Pasted image 20231004142942.png",
     "Networking 2",
-    "CS and Law/Notes.md",
-    "os3ilv-w23-24-assignment-Alek-Hanusic/README.md",
-    "Algorithms 2/Notes.md",
     "Algorithms 2/Lecture.01/3.IntroAndRecap.pdf",
     "Algorithms 2/Lecture.01/2.Assignments.pdf",
     "Algorithms 2/Lecture.01/1.Organization.pdf",
@@ -221,26 +247,6 @@
     "Sem 2",
     "Advanced Statistics/Images/Pasted image 20231002112614.png",
     "Sem 2/Algorithms/Images/1_l1dZgMgvt0d578JhTy307A.gif",
-    "Sem 2/Algorithms/Images/Pasted image 20230918173144.png",
-    "Sem 2/Algorithms/Images/Pasted image 20230918194059.png",
-    "Sem 2/Databases/Relationships.md",
-    "Sem 2/Databases/Entities.md",
-    "Sem 2/Databases/Attributes.md",
-    "Sem 2/Databases/Atomic Value.md",
-    "Sem 2/Databases/Cardinality Ex.png",
-    "Sem 2/Databases/Composite Keys.png",
-    "Sem 2/Algorithms/Algorithms.md",
-    "Sem 2/Databases/Untitled 1.md",
-    "Sem 2/Databases/Untitled.md",
-    "Sem 2/Databases/Normalization.md",
-    "Sem 2/Databases/SQL.md",
-    "Sem 2/Databases/SQL Constraints.md",
-    "Sem 2/Databases/Views.md",
-    "Sem 2/Databases/Relational Database.md",
-    "Sem 2/Databases/Referential Integrity.md",
-    "Sem 2/Databases/RDBMS.md",
-    "Sem 2/Databases/Query.md",
-    "Sem 2/Algorithms/Images/Bubble_sort.gif",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
