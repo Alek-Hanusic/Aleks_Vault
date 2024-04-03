@@ -19,32 +19,42 @@ c) Can not be proven
 
 *We know:*
 ```
-R1: Mythical ⇒ ¬Mortal. 
->R2: ¬Mythical ⇒ Mortal ∧ Mammal. 
->R3: (¬Mortal ∨ Mammal) ⇒ Horned. 
->R4: Horned ⇒ Magical.
+R1: Mythical ⇒ ¬Mortal
+>R2: ¬Mythical ⇒ Mortal ∧ Mammal
+>R3: (¬Mortal ∨ Mammal) ⇒ Horned
+>R4: Horned ⇒ Magical
 ```
 ### a)
 - We must "Translate" R6 to Conj. Normal Form:
 ```
 ***Implication elimination: (*remove if-then)
 
-R5: ¬Mythical ∨ ¬Mortal.
-R6: Mythical ∨ (Mortal ∧ Mammal).
+R5: ¬Mythical ∨ ¬Mortal
+R6: Mythical ∨ (Mortal ∧ Mammal)
 ```
 
 ```
 *** Distrubitivity law (distributing ∨ over ∧ wher possible):
 
-R7: (Mythical ∨ Mortal) ∧ (Mythical ∨ Mammal).
+R7: (Mythical ∨ Mortal) ∧ (Mythical ∨ Mammal)
 ```
 
 ```
 ***Resolution:
-R8: ¬Mortal ∨ Mammal.
-Modus ponens R3:
-R9: Horned.
+R8: ¬Mortal ∨ Mammal
+
+Modus ponens of R3 (R8 is true so according to R3, horned -> R9 ):
+R9: Horned
 ```
 ### b)
+```
+Modus ponens of R4 (R9 is true so Magical is true -> R10):
+R10: Magical
+```
+
+### c)
+```
+Can not be proven
+```
 ## Exercise 2.2
 ![[Pasted image 20240309191015.png]]
