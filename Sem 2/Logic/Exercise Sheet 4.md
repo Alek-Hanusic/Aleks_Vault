@@ -38,3 +38,16 @@ M = "climb that mountain"
 ![[Pasted image 20240406185812.png]]
 
 ## 4.4
+>The language defined by the regular expression: `(0*1*)*000(0 + 1)*`
+
+>`(0*1*)*`
+>Starts with any number of alternating sequences of 0s and 1s 
+>ex:(00001110001111 or None)
+
+>`000`
+>Contains a sequence of three 0s
+
+>`(0 + 1)*``
+>Ends on a sequence/string consisting of zero or more occurrences of '0's and '1's
+>ex. (None, 0, 011, 101, 1001)
+
