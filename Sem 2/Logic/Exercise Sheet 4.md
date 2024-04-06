@@ -31,3 +31,10 @@ M = "climb that mountain"
 |  F  |  T  |   F   |  F  |
 |  F  |  F  |   F   |  F  |
 ## 4.3
+### a)
+![[Pasted image 20240406190130.png]]
+### b)
+
+![[Pasted image 20240406185812.png]]
+
+## 4.4
