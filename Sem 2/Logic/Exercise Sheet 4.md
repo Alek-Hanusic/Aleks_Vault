@@ -21,3 +21,13 @@ M = "climb that mountain"
 
 > (C ∧ S) → M
 
+## 4.2
+*b) It requires courage and skills to climb that mountain.* 
+
+|  C  |  S  | (C∧S) |  M  |
+|:---:|:---:|:-----:|:---:|
+|  T  |  T  |   T   |  T  |
+|  T  |  F  |   F   |  F  |
+|  F  |  T  |   F   |  F  |
+|  F  |  F  |   F   |  F  |
+## 4.3
