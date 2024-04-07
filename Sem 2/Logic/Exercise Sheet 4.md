@@ -54,3 +54,11 @@ M = "climb that mountain"
 ## 4.5
 *Write a regular expression for the following language in algebraic notation, in UNIX syntax, and in Python syntax: The set of strings of x’s and y’s whose fourth symbol from the right end is x.*
 
+### Algebraic:
+`(x+y)*x(x+y)^3`
+
+### UNIX:
+
+### Python:
+
+`r"(x|y)*x(x|y){3}"`
