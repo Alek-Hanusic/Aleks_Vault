@@ -51,3 +51,6 @@ M = "climb that mountain"
 >Ends on a sequence/string consisting of zero or more occurrences of '0's and '1's
 >ex. (None, 0, 011, 101, 1001)
 
+## 4.5
+*Write a regular expression for the following language in algebraic notation, in UNIX syntax, and in Python syntax: The set of strings of x’s and y’s whose fourth symbol from the right end is x.*
+
