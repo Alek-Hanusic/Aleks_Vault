@@ -79,4 +79,4 @@ or?
 `Part -> Digit | Digit Part`
 `Digit -> "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"`
 
-> Part can be just a digit, or it can be a digit and a part (another digit + part)
+> * Part can be just a digit, or it can be a digit and a part (another digit + part)
