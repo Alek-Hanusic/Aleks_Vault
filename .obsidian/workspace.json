@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 5.md",
+                "file": "Sem 2/Prog Project 2 Proposal.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 5.md",
+                "file": "Sem 2/Prog Project 2 Proposal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 5.md",
+                "file": "Sem 2/Prog Project 2 Proposal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 5.md"
+                "file": "Sem 2/Prog Project 2 Proposal.md"
               }
             }
           },
@@ -184,10 +184,11 @@
   },
   "active": "4a0e04b397847002",
   "lastOpenFiles": [
+    "Sem 2/Logic/Exercise Sheet 5.md",
+    "Sem 2/Prog Project 2 Proposal.md",
     "Pasted image 20240414225800.png",
     "parse tree.png",
     "Sem 2/Logic/Exercise Sheet 4.md",
-    "Sem 2/Logic/Exercise Sheet 5.md",
     "Pasted image 20240407174026.png",
     "Pasted image 20240406185812.png",
     "Pasted image 20240406190130.png",
@@ -220,7 +221,6 @@
     "Sem 2/Databases/Entity Integrity.md",
     "Sem 2/Databases/ON UPDATE CASCADE.png",
     "Sem 2/Databases/ON DELETE CASCADE.png",
-    "Sem 2/Databases/Composite Keys.png",
     "Sem 2/Logic/Images",
     "Sem 2/Logic",
     "Project Management",
