@@ -1,7 +1,7 @@
-## File Transfer Application Proposal
+## Peer-to-Peer File Transfer Application
 
 **Summary:**
-The file transfer application will aim to provide a secure and efficient way for users to transfer files between devices. Each user will have the ability to receive and send files. The goal is to make a peer-to-peer application
+The file transfer application will aim to provide a secure and efficient way for users to transfer files between devices. Each user will have the ability to receive and send files. The goal is to make a peer-to-peer application, that will be able to transfer files between two devices without a server.
 
 **Main Features:**
 1. Authentication codes (to link sender & receiver)
@@ -17,9 +17,9 @@ The file transfer application will aim to provide a secure and efficient way for
 - Database: The database will store user information, file metadata (file name, size, owner), and the history of file transfers. It will use a relational database like SQLite or MySQL to manage this data efficiently.
 
 **External Libraries:**
-2. SQL - To interact with the database and manage data persistence.
-3. Socket programming in Python: For implementing networking features like establishing connections and transferring files securely.
-4. Tkinter/Streamlit: For designing a responsive and user-friendly interface.
+1. SQL - To interact with the database and manage data persistence.
+2. Socket programming in Python: For implementing networking features like establishing connections and transferring files securely.
+3. Tkinter/Streamlit: For designing a responsive and user-friendly interface.
 
 **Overview Architecture Image:**
 ![[Pasted image 20240421202809.png]]
