@@ -4,7 +4,7 @@
 The file transfer application will aim to provide a secure and efficient way for users to transfer files between devices. Each user will have the ability to receive and send files.
 
 **Main Features:**
-1. User registration and authentication
+1. Authentication codes (to link sender)
 2. File upload and download functionality
 3. File management (rename, delete, move)
 4. Secure file transfer using encryption
