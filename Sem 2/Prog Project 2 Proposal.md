@@ -20,6 +20,3 @@ The file transfer application will aim to provide a secure and efficient way for
 4. Tkinter/Streamlit: For designing a responsive and user-friendly interface.
 
 ### Overview Architecture Image:
-File Transfer Application Architecture
-
-This proposal outlines the key aspects of the file transfer application, including its target audience, main features, networking and database usage, external libraries, and an overview of the planned software architecture.
