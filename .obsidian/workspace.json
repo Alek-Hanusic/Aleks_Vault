@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 2/Second Project Proposal - Alek Hanušić.md",
+                "file": "Math/Exercises 4/Exercise 4.4.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem 2/Second Project Proposal - Alek Hanušić.md",
+                "file": "Math/Exercises 4/Exercise 4.4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem 2/Second Project Proposal - Alek Hanušić.md",
+                "file": "Math/Exercises 4/Exercise 4.4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sem 2/Second Project Proposal - Alek Hanušić.md"
+                "file": "Math/Exercises 4/Exercise 4.4.md"
               }
             }
           },
@@ -184,21 +184,29 @@
   },
   "active": "4a0e04b397847002",
   "lastOpenFiles": [
+    "IMG_20240428_224839.jpg",
+    "Math/Exercises 4/Exercise 4.3.md",
+    "IMG_20240428_230246.jpg",
+    "IMG_20240428_224939.jpg",
+    "IMG_20240428_224959 1.jpg",
+    "Math/Exercises 4/Exercise 4.2.md",
+    "IMG_20240428_225119.jpg",
+    "Math/Exercises 4/Exercise 4.4.md",
+    "Math/Exercises 4/Exercise 4.1.md",
+    "IMG_20240428_224959.jpg",
+    "Math/Exercises 4",
+    "Math/Exercises 1.md",
+    "Math/Math Notes.md",
+    "Sem 2/Second Project Proposal - Alek Hanušić.md",
     "Pasted image 20240421202809.png",
     "Sem 2/Logic/Exercise Sheet 5.md",
-    "Sem 2/Second Project Proposal - Alek Hanušić.md",
     "Pasted image 20240414225800.png",
     "parse tree.png",
     "Sem 2/Logic/Exercise Sheet 4.md",
     "Pasted image 20240407174026.png",
     "Pasted image 20240406185812.png",
-    "Pasted image 20240406190130.png",
-    "Pasted image 20240406190159.png",
-    "Pasted image 20240406190247.png",
-    "Pasted image 20240406185819.png",
     "Sem 2/Logic/Exercise Sheet 2.md",
     "CS and Law/Notes.md",
-    "Math/Exercises 1.md",
     "Sem 2/Databases/Atomic Value.md",
     "Sem 2/Databases.zip",
     "Sem 2/Databases/Untitled 1.md",
@@ -214,13 +222,6 @@
     "Sem 2/Databases/Relational Database.md",
     "Sem 2/Databases/Referential Integrity.md",
     "Sem 2/Databases/RDBMS.md",
-    "Sem 2/Databases/Query.md",
-    "Sem 2/Databases/Normalization.md",
-    "Sem 2/Databases/Keys.md",
-    "Sem 2/Databases/Joins.md",
-    "Sem 2/Databases/Indexes.md",
-    "Sem 2/Databases/ON UPDATE CASCADE.png",
-    "Sem 2/Databases/ON DELETE CASCADE.png",
     "Sem 2/Logic/Images",
     "Sem 2/Logic",
     "Project Management",
@@ -229,7 +230,6 @@
     "Algorithms 2/Lecture.01/3.IntroAndRecap.pdf",
     "Algorithms 2/Lecture.01/2.Assignments.pdf",
     "Algorithms 2/Lecture.01/1.Organization.pdf",
-    "Algorithms 2/Lecture.01",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
