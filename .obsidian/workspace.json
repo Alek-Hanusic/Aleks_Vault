@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Exercises 4/Exercise 4.4.md",
+                "file": "Math/Exam 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Exercises 4/Exercise 4.4.md",
+                "file": "Math/Exam 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Exercises 4/Exercise 4.4.md",
+                "file": "Math/Exam 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Exercises 4/Exercise 4.4.md"
+                "file": "Math/Exam 3.md"
               }
             }
           },
@@ -184,6 +184,11 @@
   },
   "active": "4a0e04b397847002",
   "lastOpenFiles": [
+    "IMG_20231025_120657 1.jpg",
+    "IMG_20231025_120653.jpg",
+    "IMG_20231025_120657.jpg",
+    "Math/Exercises 4/Exercise 4.4.md",
+    "Math/Exam 3.md",
     "IMG_20240428_224839.jpg",
     "Math/Exercises 4/Exercise 4.3.md",
     "IMG_20240428_230246.jpg",
@@ -191,7 +196,6 @@
     "IMG_20240428_224959 1.jpg",
     "Math/Exercises 4/Exercise 4.2.md",
     "IMG_20240428_225119.jpg",
-    "Math/Exercises 4/Exercise 4.4.md",
     "Math/Exercises 4/Exercise 4.1.md",
     "IMG_20240428_224959.jpg",
     "Math/Exercises 4",
@@ -201,10 +205,7 @@
     "Pasted image 20240421202809.png",
     "Sem 2/Logic/Exercise Sheet 5.md",
     "Pasted image 20240414225800.png",
-    "parse tree.png",
     "Sem 2/Logic/Exercise Sheet 4.md",
-    "Pasted image 20240407174026.png",
-    "Pasted image 20240406185812.png",
     "Sem 2/Logic/Exercise Sheet 2.md",
     "CS and Law/Notes.md",
     "Sem 2/Databases/Atomic Value.md",
@@ -221,7 +222,6 @@
     "Sem 2/Databases/Relationships.md",
     "Sem 2/Databases/Relational Database.md",
     "Sem 2/Databases/Referential Integrity.md",
-    "Sem 2/Databases/RDBMS.md",
     "Sem 2/Logic/Images",
     "Sem 2/Logic",
     "Project Management",
