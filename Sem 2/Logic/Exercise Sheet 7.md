@@ -12,18 +12,18 @@
    >This is the equivalent form of ¬∃x Loves(John, x), since rule says that "¬∃x P(x) is equivalent to ∀x ¬P(x)".
 
 5. ¬Loves(John, x)
-   > This is obtained by the Universal Instantiation rule, which allows us to replace the universal quantifier ∀x with a specific variable x.
+   > This is obtained by the Universal Instantiation rule, which allows us to replace the universal quantifier ∀x with a specific variable x (for all x, then also one of those x).
 
 6. ¬Loves(John, John)
-   - This is also obtained by the Universal Instantiation rule, where we replace the variable x with the constant John.
+   > Universal Instantiation rule, where we replace the variable x with the constant John.
 
 7. ¬Loves(Mother(John), John)
-   - This is obtained by the Substitution rule, where we replace the variable x in step 6 with the term Mother(John).
+   >  Substitution rule, where we replace the variable x in step 6 with the term Mother(John).
 
 8. Loves(Mother(John), John) ∧ ¬Loves(Mother(John), John)
-   - This is obtained by the Conjunction Introduction rule, where we combine the results from steps 2 and 7.
+   > This is obtained by the Conjunction Introduction rule, where we combine the results from steps 2 and 7.
 
-The final step shows that the given sentence leads to a contradiction, as it contains both Loves(Mother(John), John) and its negation ¬Loves(Mother(John), John). This means that the original sentence is not a valid statement in first-order logic.
+The final step shows that the given sentence leads to a contradiction. This means that the original sentence is not a valid statement in first-order logic.
 
 ## 7.3
 
