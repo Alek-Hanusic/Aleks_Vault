@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Exam 3.md",
+                "file": "Sem 2/Logic/Exercise Sheet 7.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "80b0dca6c9cfa2c4",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Exam 3.md",
+                "file": "Sem 2/Logic/Exercise Sheet 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Exam 3.md",
+                "file": "Sem 2/Logic/Exercise Sheet 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Exam 3.md"
+                "file": "Sem 2/Logic/Exercise Sheet 7.md"
               }
             }
           },
@@ -184,11 +185,12 @@
   },
   "active": "4a0e04b397847002",
   "lastOpenFiles": [
+    "Math/Exam 3.md",
+    "Sem 2/Logic/Exercise Sheet 7.md",
     "IMG_20231025_120657 1.jpg",
     "IMG_20231025_120653.jpg",
     "IMG_20231025_120657.jpg",
     "Math/Exercises 4/Exercise 4.4.md",
-    "Math/Exam 3.md",
     "IMG_20240428_224839.jpg",
     "Math/Exercises 4/Exercise 4.3.md",
     "IMG_20240428_230246.jpg",
@@ -204,7 +206,6 @@
     "Sem 2/Second Project Proposal - Alek Hanušić.md",
     "Pasted image 20240421202809.png",
     "Sem 2/Logic/Exercise Sheet 5.md",
-    "Pasted image 20240414225800.png",
     "Sem 2/Logic/Exercise Sheet 4.md",
     "Sem 2/Logic/Exercise Sheet 2.md",
     "CS and Law/Notes.md",
