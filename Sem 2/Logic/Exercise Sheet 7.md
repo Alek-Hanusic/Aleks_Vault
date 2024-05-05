@@ -2,6 +2,7 @@
 Nobody is watching:
 ![[Pasted image 20240505160448.png]]
 two are watching:
+![[Pasted image 20240505174448.png]]
 
 ## 7.2
 1. Loves(Mother(John), John) ∧ ¬∃x Loves(John, x)
