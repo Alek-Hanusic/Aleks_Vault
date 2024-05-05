@@ -1,16 +1,29 @@
 ## 7.2
-To derive the sentence Loves(Mother(John), John) ∧ ¬∃x Loves(John, x) in first-order logic, we need to follow the rules of inference. Here is a step-by-step derivation:
+1. Loves(Mother(John), John) ∧ ¬∃x Loves(John, x)
+   > Given sentence
 
-1. Loves(Mother(John), John) ∧ ¬∃x Loves(John, x)  (Given)
-2. Loves(Mother(John), John)  (Simplification)
-3. ¬∃x Loves(John, x)  (Simplification)
-4. ∀x ¬Loves(John, x)  (Equivalent form of ¬∃x Loves(John, x))
-5. ¬Loves(John, x)  (Universal instantiation)
-6. ¬Loves(John, John)  (Universal instantiation)
-7. ¬Loves(Mother(John), John)  (Substitution in 6)
-8. Loves(Mother(John), John) ∧ ¬Loves(Mother(John), John)  (Conjunction introduction from 2 and 7)
+2. Loves(Mother(John), John)
+   >This is the first part of the conjunction in the given sentence, obtained by the Simplification rule.
 
-The derivation shows that the sentence Loves(Mother(John), John) ∧ ¬∃x Loves(John, x) leads to a contradiction, which is expected in this case due to the negation of an existential quantifier.
+3. ¬∃x Loves(John, x)
+   > This is the second part of the conjunction in the given sentence, obtained by the Simplification rule.
+
+4. ∀x ¬Loves(John, x)
+   >This is the equivalent form of ¬∃x Loves(John, x), since rule says that "¬∃x P(x) is equivalent to ∀x ¬P(x)".
+
+5. ¬Loves(John, x)
+   > This is obtained by the Universal Instantiation rule, which allows us to replace the universal quantifier ∀x with a specific variable x.
+
+6. ¬Loves(John, John)
+   - This is also obtained by the Universal Instantiation rule, where we replace the variable x with the constant John.
+
+7. ¬Loves(Mother(John), John)
+   - This is obtained by the Substitution rule, where we replace the variable x in step 6 with the term Mother(John).
+
+8. Loves(Mother(John), John) ∧ ¬Loves(Mother(John), John)
+   - This is obtained by the Conjunction Introduction rule, where we combine the results from steps 2 and 7.
+
+The final step shows that the given sentence leads to a contradiction, as it contains both Loves(Mother(John), John) and its negation ¬Loves(Mother(John), John). This means that the original sentence is not a valid statement in first-order logic.
 
 ## 7.3
 
