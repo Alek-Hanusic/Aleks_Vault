@@ -1,9 +1,13 @@
 ## 7.1
-Nobody is watching:
+### Nobody is watching:
 ![[Pasted image 20240505160448.png]]
-two are watching:
+### Two devices are watching:
 ![[Pasted image 20240505174448.png]]
+### Four devices watching but 5th can not (no tokens left)
 
+![[Pasted image 20240505180033.png]]
+> had to add req_watch and request to be able to show that 5th device is requesting access, but can not receive it
+###
 ## 7.2
 1. Loves(Mother(John), John) ∧ ¬∃x Loves(John, x)
    > Given sentence
