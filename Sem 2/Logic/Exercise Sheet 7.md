@@ -1,4 +1,4 @@
-## 7.1
+## 7.1 a)
 ### Nobody is watching:
 ![[Pasted image 20240505160448.png]]
 ### Two devices are watching:
@@ -6,8 +6,17 @@
 ### Four devices watching but 5th can not (no tokens left)
 
 ![[Pasted image 20240505180033.png]]
-> had to add req_watch and request to be able to show that 5th device is requesting access, but can not receive it
-###
+> had to add req_watch and request to be able to show that 5th device is requesting access, but can not receive it. **This could be added before every start_watch transition**
+
+## 7.1 b)
+### No devices watching
+![[Pasted image 20240505191914.png]]
+### Two devices watching
+
+![[Pasted image 20240505191718.png]]
+
+### Four watching & 5th wants to but can not
+![[Pasted image 20240505191801.png]]
 ## 7.2
 1. Loves(Mother(John), John) ∧ ¬∃x Loves(John, x)
    > Given sentence
