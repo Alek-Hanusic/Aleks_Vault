@@ -168,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,7 +183,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4a0e04b397847002",
+  "active": "6c698d81d966a095",
   "lastOpenFiles": [
     "Sem 2/Logic/Exercise Sheet 7.md",
     "Sem 2/Exercise Sheet 8.md",
