@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 7.md",
+                "file": "Sem 2/Exercise Sheet 8.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 7.md",
+                "file": "Sem 2/Exercise Sheet 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 7.md",
+                "file": "Sem 2/Exercise Sheet 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 7.md"
+                "file": "Sem 2/Exercise Sheet 8.md"
               }
             }
           },
@@ -168,8 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,6 +184,8 @@
   },
   "active": "4a0e04b397847002",
   "lastOpenFiles": [
+    "Sem 2/Logic/Exercise Sheet 7.md",
+    "Sem 2/Exercise Sheet 8.md",
     "Pasted image 20240505191914.png",
     "Pasted image 20240505191801.png",
     "Pasted image 20240505191718.png",
@@ -193,12 +194,10 @@
     "Pasted image 20240505160448.png",
     "Pasted image 20240505160229.png",
     "Math/Exam 3.md",
-    "Sem 2/Logic/Exercise Sheet 7.md",
     "IMG_20231025_120657 1.jpg",
     "IMG_20231025_120653.jpg",
     "IMG_20231025_120657.jpg",
     "Math/Exercises 4/Exercise 4.4.md",
-    "IMG_20240428_224839.jpg",
     "Math/Exercises 4/Exercise 4.3.md",
     "Math/Exercises 4/Exercise 4.2.md",
     "Math/Exercises 4/Exercise 4.1.md",
