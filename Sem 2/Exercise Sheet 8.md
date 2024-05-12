@@ -46,6 +46,7 @@ guilty(harry).
 motive(harry) motive(sally) guilty(harry) innocent(sally)
 ```
 
+> The rule above says that the suspect is innocent if they have a motive and they are not guilty
 ### Altered
 ```c
 innocent(Suspect) :- motive(Suspect), not guilty(Suspect).
@@ -61,3 +62,11 @@ guilty(sally).
 ```c
 motive(harry) motive(sally) guilty(harry) guilty(sally)
 ```
+
+> so, if we add the fact that sally is now guilty, she is no longer 
+
+
+
+### b
+
+
