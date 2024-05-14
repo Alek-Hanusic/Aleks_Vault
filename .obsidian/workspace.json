@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 2/Exercise Sheet 8.md",
+                "file": "Sem 2/Logic/Exercise Sheet 9.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "80b0dca6c9cfa2c4",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem 2/Exercise Sheet 8.md",
+                "file": "Sem 2/Logic/Exercise Sheet 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem 2/Exercise Sheet 8.md",
+                "file": "Sem 2/Logic/Exercise Sheet 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sem 2/Exercise Sheet 8.md"
+                "file": "Sem 2/Logic/Exercise Sheet 9.md"
               }
             }
           },
@@ -155,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,8 +170,9 @@
   },
   "active": "4a0e04b397847002",
   "lastOpenFiles": [
+    "Sem 2/Logic/Exercise Sheet 8.md",
+    "Sem 2/Logic/Exercise Sheet 9.md",
     "Sem 2/Logic/Exercise Sheet 7.md",
-    "Sem 2/Exercise Sheet 8.md",
     "Pasted image 20240505191914.png",
     "Pasted image 20240505191801.png",
     "Pasted image 20240505191718.png",
@@ -209,7 +208,6 @@
     "Sem 2/Databases/SQL.md",
     "Sem 2/Databases/DDL.md",
     "Sem 2/Databases/Relationships.md",
-    "Sem 2/Databases/Relational Database.md",
     "Sem 2/Logic/Images",
     "Sem 2/Logic",
     "Project Management",
