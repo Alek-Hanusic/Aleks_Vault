@@ -9,9 +9,15 @@ Using the unary predicate Person denoting people,  the unary predicate "Time" de
 `You can fool some of the people all of the time`
 
 > ∃p∃t Fool(p, t) 
->"there exists at least one person and at least one point in time where that person is fooled"
+
+*"there exists at least one person and at least one point in time where that person is fooled"*
 
 `Fool all of the people some of the time`
 
 > ∀p∃t Fool(p, t)
-"for every person, there exists at least one point in time where that person is fooled."
+
+*"for every person, there exists at least one point in time where that person is fooled."*
+
+`You cannot fool all of the people all of the time`
+
+> NOT FOR ALL P
