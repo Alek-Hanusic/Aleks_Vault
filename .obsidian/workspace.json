@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1d40f28bf6712830",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem 2/Logic/Exercise Sheet 4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4a0e04b397847002",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,7 +170,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6c698d81d966a095",
+  "active": "4a0e04b397847002",
   "lastOpenFiles": [
     "Sem 2/Logic/Exercise Sheet 7.md",
     "Sem 2/Exercise Sheet 8.md",

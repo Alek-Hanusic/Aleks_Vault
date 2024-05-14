@@ -1,3 +1,4 @@
+> By: Alek Hanušić
 ## 8.1
 
 ### “Getting angry does not solve anything.”
@@ -65,8 +66,30 @@ motive(harry) motive(sally) guilty(harry) guilty(sally)
 
 > so, if we add the fact that sally is now guilty, she is no longer 
 
+### b)
+> I had difficuilties installing clingo as well as finding the Towers of Hanoi puzzle. Assuming this is the correct ToH code:
+```python
+peg(a;b;c).
+disk(1..4).
+init_on(1..4,a).
+goal_on(1..4,c).
+moves(15).
+```
+#### Output:
+```python
+clingo version 5.7.0
+Reading from stdin
+Solving...
+Answer: 1
+disk(1) disk(2) disk(3) disk(4) init_on(1,a) init_on(2,a) init_on(3,a) init_on(4,a) goal_on(1,c) goal_on(2,c) goal_on(3,c) goal_on(4,c) moves(15) peg(a) peg(b) peg(c)
+SATISFIABLE
+
+Models       : 1
+Calls        : 1
+Time         : 0.014s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.000s
+```
 
 
-### b
 
 
