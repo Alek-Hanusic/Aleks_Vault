@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 2/Databases/Databases Whole Course.md",
+                "file": "Math/Exercises 5/Exercise 5.4.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem 2/Databases/Databases Whole Course.md",
+                "file": "Math/Exercises 5/Exercise 5.4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem 2/Databases/Databases Whole Course.md",
+                "file": "Math/Exercises 5/Exercise 5.4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sem 2/Databases/Databases Whole Course.md"
+                "file": "Math/Exercises 5/Exercise 5.4.md"
               }
             }
           },
@@ -170,6 +170,23 @@
   },
   "active": "4a0e04b397847002",
   "lastOpenFiles": [
+    "IMG_20240521_225343.jpg",
+    "IMG_20240521_225222.jpg",
+    "Math/Exercises 5/Exercise 5.3.md",
+    "Math/Exercises 5/Exercise 5.4.md",
+    "IMG_20240521_224946.jpg",
+    "IMG_20240521_224214.jpg",
+    "IMG_20240521_224534.jpg",
+    "IMG_20240521_224449.jpg",
+    "Math/Exercises 5/Exercise 5.2.md",
+    "IMG_20240521_224147.jpg",
+    "Math/Exercises 5/Exercise 5.1.md",
+    "IMG_20240521_223252.jpg",
+    "IMG_20240521_223317.jpg",
+    "IMG_20240521_223310.jpg",
+    "IMG_20240521_223327.jpg",
+    "Sem 2/Databases/Databases Whole Course.md",
+    "Math/Exercises 5",
     "Sem 2/Databases/Database Design.md",
     "Sem 2/Databases/Cardinality vs Modality.md",
     "Sem 2/Databases/Data Integrity.md",
@@ -178,17 +195,7 @@
     "Markdown Cheat Sheet.md",
     "Sem 2/Logic/Exercise Sheet 8.md",
     "Sem 2/Logic/Exercise Sheet 7.md",
-    "Pasted image 20240505191914.png",
-    "Pasted image 20240505191801.png",
-    "Pasted image 20240505191718.png",
-    "Pasted image 20240505180033.png",
-    "Pasted image 20240505174448.png",
-    "Pasted image 20240505160448.png",
-    "Pasted image 20240505160229.png",
     "Math/Exam 3.md",
-    "IMG_20231025_120657 1.jpg",
-    "IMG_20231025_120653.jpg",
-    "IMG_20231025_120657.jpg",
     "Math/Exercises 4/Exercise 4.4.md",
     "Math/Exercises 4/Exercise 4.3.md",
     "Math/Exercises 4/Exercise 4.2.md",
@@ -201,13 +208,7 @@
     "Sem 2/Logic/Exercise Sheet 4.md",
     "Sem 2/Logic/Exercise Sheet 2.md",
     "CS and Law/Notes.md",
-    "Sem 2/Databases/Atomic Value.md",
     "Sem 2/Databases.zip",
-    "Sem 2/Databases/Untitled 1.md",
-    "Sem 2/Databases/Untitled.md",
-    "Sem 2/Databases/Databases Whole Course.md",
-    "Sem 2/Databases/Views.md",
-    "Sem 2/Databases/SQL Syntax.md",
     "Sem 2/Logic/Images",
     "Sem 2/Logic",
     "Project Management",
@@ -215,7 +216,6 @@
     "Networking 2",
     "Algorithms 2/Lecture.01/3.IntroAndRecap.pdf",
     "Algorithms 2/Lecture.01/2.Assignments.pdf",
-    "Algorithms 2/Lecture.01/1.Organization.pdf",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
