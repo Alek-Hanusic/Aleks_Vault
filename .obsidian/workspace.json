@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Exercises 5/Exercise 5.4.md",
+                "file": "Sem 2/Logic/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Exercises 5/Exercise 5.4.md",
+                "file": "Sem 2/Logic/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Exercises 5/Exercise 5.4.md",
+                "file": "Sem 2/Logic/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Exercises 5/Exercise 5.4.md"
+                "file": "Sem 2/Logic/Notes.md"
               }
             }
           },
@@ -170,10 +170,11 @@
   },
   "active": "4a0e04b397847002",
   "lastOpenFiles": [
+    "Math/Exercises 5/Exercise 5.4.md",
+    "Sem 2/Logic/Notes.md",
     "IMG_20240521_225343.jpg",
     "IMG_20240521_225222.jpg",
     "Math/Exercises 5/Exercise 5.3.md",
-    "Math/Exercises 5/Exercise 5.4.md",
     "IMG_20240521_224946.jpg",
     "IMG_20240521_224214.jpg",
     "IMG_20240521_224534.jpg",
@@ -184,7 +185,6 @@
     "IMG_20240521_223252.jpg",
     "IMG_20240521_223317.jpg",
     "IMG_20240521_223310.jpg",
-    "IMG_20240521_223327.jpg",
     "Sem 2/Databases/Databases Whole Course.md",
     "Math/Exercises 5",
     "Sem 2/Databases/Database Design.md",
