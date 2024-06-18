@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem 2/Logic/Notes.md",
+                "file": "Sem 2/Databases/DATABASE PDF.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem 2/Logic/Notes.md",
+                "file": "Sem 2/Databases/DATABASE PDF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem 2/Logic/Notes.md",
+                "file": "Sem 2/Databases/DATABASE PDF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sem 2/Logic/Notes.md"
+                "file": "Sem 2/Databases/DATABASE PDF.md"
               }
             }
           },
@@ -170,8 +170,11 @@
   },
   "active": "4a0e04b397847002",
   "lastOpenFiles": [
-    "Math/Exercises 5/Exercise 5.4.md",
+    "Pasted image 20240618130319.png",
+    "Pasted image 20240618130304.png",
     "Sem 2/Logic/Notes.md",
+    "Sem 2/Databases/DATABASE PDF.md",
+    "Math/Exercises 5/Exercise 5.4.md",
     "IMG_20240521_225343.jpg",
     "IMG_20240521_225222.jpg",
     "Math/Exercises 5/Exercise 5.3.md",
@@ -184,7 +187,6 @@
     "Math/Exercises 5/Exercise 5.1.md",
     "IMG_20240521_223252.jpg",
     "IMG_20240521_223317.jpg",
-    "IMG_20240521_223310.jpg",
     "Sem 2/Databases/Databases Whole Course.md",
     "Math/Exercises 5",
     "Sem 2/Databases/Database Design.md",
@@ -206,8 +208,6 @@
     "Sem 2/Second Project Proposal - Alek Hanušić.md",
     "Sem 2/Logic/Exercise Sheet 5.md",
     "Sem 2/Logic/Exercise Sheet 4.md",
-    "Sem 2/Logic/Exercise Sheet 2.md",
-    "CS and Law/Notes.md",
     "Sem 2/Databases.zip",
     "Sem 2/Logic/Images",
     "Sem 2/Logic",
